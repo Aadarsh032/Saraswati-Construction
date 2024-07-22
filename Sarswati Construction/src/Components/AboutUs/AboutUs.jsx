@@ -26,11 +26,11 @@ const AboutUs = () => {
           </div>
 
           <div className='flex items-center gap-7'>
-            <div className='w-5/12 bg-white p-8 shadow-lg rounded-3xl'>
+            <div className='w-96 bg-white p-8 shadow-lg rounded-3xl h-60' >
               <h1 className='text-xl font-bold'>Unwavering Commitment to Quality</h1>
               <p className='text-lg'>We use only the finest materials and employ a team of skilled professionals to ensure the highest quality construction.</p>
             </div>
-            <div className='w-5/12 bg-white p-8 rounded-3xl shadow-lg'>
+            <div className='w-96 bg-white p-8 h-60 rounded-3xl shadow-lg'>
               <h1 className='text-xl font-bold'>Transparency, Trust and Customer Satisfaction</h1>
               <p className='text-lg'>Commitment to the highest standards of construction and design. and a track record of delivering projects on time and exceeding client expectations.</p>
             </div>
