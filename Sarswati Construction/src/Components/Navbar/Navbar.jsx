@@ -12,13 +12,13 @@ const Navbar = () => {
             <div className='nav_icons list-none flex items-center justify-center gap-10 text-xl font-bold '>
                 <li className="naviconsele " id='naviconhome'>Home</li>
                 <li className="naviconsele">About Us</li>
-                <li className="naviconsele flex items-center gap-2">Our Services <img src={dropdown} className=' w-4 h-2  ' alt="" /></li>
+                <li className="naviconsele flex items-center gap-2">Our Services <img src={dropdown} className=' w-4 h-3  ' alt="" /></li>
                 <li className="naviconsele">Projects</li>
                 <li className="naviconsele">Contact</li>
             </div>
             <div className='getquotes flex items-center justify-center gap-4 font-bold'>
                 <button className='quotes bg-[#B96D79] p-4 px-8 rounded-3xl'> Get a Quote</button>
-                <div className='contact flex'><img src={telephone} alt="" /><p>123 456 789</p></div>
+                <div className='contact flex'><img src={telephone} alt="" className=' h-5 mr-2' /><p>123 456 789</p></div>
             </div>
         </div>
     )
