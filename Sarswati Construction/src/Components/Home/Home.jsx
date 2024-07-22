@@ -9,7 +9,6 @@ import persondigging from '../../assets/person-digging.png'
 const Home = () => {
   return (
     <>
-
       <div className=' relative font-sans'>
         <img src={homebackground} alt="" />
         <div className=' absolute top-0 w-full my-4'>
@@ -46,12 +45,8 @@ const Home = () => {
               </div>  
             </div>
          </div>
-
       </div>
-
-
     </>
-// style={{width:'1038px'}} 
 
   )
 }

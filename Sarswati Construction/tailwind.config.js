@@ -5,7 +5,8 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   colors: {
-    'lightblack': '#1fb6ff',
+    'lightpink': '#DF7F8E',
+     'darkpink':'#B96D79',
     
   },
   theme: {
