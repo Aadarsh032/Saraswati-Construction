@@ -3,17 +3,18 @@ import aboutrightimage1 from '../../assets/Rectangle4.png'
 import aboutrightimage2 from '../../assets/playutt.png'
  import longarrowwhiteright from '../../assets/long-arrow-right-white.png'
  import blackphone from '../../assets/black-phone-icon.png'
-import AboutUssec2 from './AboutUssec2/AboutUssec2'
+
+import Backdrop from '../Backdrop/Backdrop'
 
 const AboutUs = () => {
   return (
      <>
     <div className='aboutus bg-neutral-100 '>
 
-      <div className='flex items-center justify-center gap-10   '>
+      <div className='flex items-center justify-center gap-10'>
 
         <div className='w-1/2'>
-          <div className='aboutusleft relative m-24 mb-28 '>
+          <div className='aboutusleft relative m-24 mb-28'>
             <img src={aboutrightimage1} alt="" />
             <img src={aboutrightimage2} alt="" className='absolute -bottom-24 right-32' />
           </div>
@@ -46,7 +47,7 @@ const AboutUs = () => {
         </div>
       </div>
     </div>
-    <AboutUssec2/>
+    <Backdrop/>
     </>
   )
 }

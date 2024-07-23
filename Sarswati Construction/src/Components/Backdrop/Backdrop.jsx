@@ -1,9 +1,10 @@
 import React from 'react'
-import backdrop from '../../../assets/Sarswati Backdrop 1.png'
-import quotes from '../../../assets/quote-left.png'
-import backdropimage from '../../../assets/Rectangle 1.png'
+import backdrop from '../../assets/Sarswati Backdrop 1.png'
+import quotes from '../../assets/quote-left.png'
+import backdropimage from '../../assets/Rectangle 1.png'
 
-const AboutUssec2 = () => {
+
+const Backdrop = () => {
   return (
     <div className='aboutussec2-backdrop relative'>
          <img src={backdrop} alt="" />
@@ -25,4 +26,4 @@ const AboutUssec2 = () => {
   )
 }
 
-export default AboutUssec2
+export default Backdrop
