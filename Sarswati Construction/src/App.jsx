@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from "./Components/Home/Home"
 import AboutUs from "./Components/AboutUs/AboutUs"
+import Projects from './Components/Projects/Projects'
 
 
 
@@ -10,6 +11,7 @@ function App() {
     <>
        <Home/>
        <AboutUs/>
+       <Projects/>
     </>
   )
 }
