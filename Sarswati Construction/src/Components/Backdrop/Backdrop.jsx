@@ -20,7 +20,6 @@ const Backdrop = () => {
                   <div className='aboutussec2-content-rightdiv'>
                        <img src={backdropimage} alt="" className=' w-96  ' />
                    </div> 
-
          </div>
     </div>
   )

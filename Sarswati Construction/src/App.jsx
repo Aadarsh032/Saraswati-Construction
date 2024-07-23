@@ -4,6 +4,7 @@ import AboutUs from "./Components/AboutUs/AboutUs"
 import Projects from './Components/Projects/Projects'
 import FloorPlans from './Components/FloorPlans/FloorPlans'
 import Amenities from './Components/Amenities/Amenities'
+import Specification from './Components/Specification/Specification'
 
 
 
@@ -16,6 +17,7 @@ function App() {
        <Projects/>
        <FloorPlans/>
        <Amenities/>
+       <Specification/>
     </>
   )
 }
