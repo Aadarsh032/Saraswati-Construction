@@ -58,8 +58,6 @@ let specification_details = {
 
 const Specification = () => {
 
-    // console.log(kjadhfh.spe.title);
-
     return (
 
         <>
@@ -83,7 +81,7 @@ const Specification = () => {
                 </div>
             </div>
 
-            <div className='specification-bottom flex  pb-[20px] pl-[126px] gap-[48px] '>
+            <div className='specification-bottom flex  pl-[126px] gap-[48px] '>
                 
             <div className='specification-top left'>
                     <Specificfeature title={specification_details.windows.title} details={specification_details.windows.details} />

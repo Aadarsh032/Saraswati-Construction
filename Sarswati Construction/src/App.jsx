@@ -5,6 +5,7 @@ import Projects from './Components/Projects/Projects'
 import FloorPlans from './Components/FloorPlans/FloorPlans'
 import Amenities from './Components/Amenities/Amenities'
 import Specification from './Components/Specification/Specification'
+import Contact from './Components/Contact/Contact'
 
 
 
@@ -18,6 +19,7 @@ function App() {
        <FloorPlans/>
        <Amenities/>
        <Specification/>
+       <Contact/>
     </>
   )
 }
