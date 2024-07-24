@@ -5,7 +5,7 @@ import IndividualProject from './IndividualProject/IndividualProject'
 
 const Projects = () => {
   return (
-    <div className='projects-mainbox bg-[#F5F5F5]'>
+    <div className='projects-mainbox bg-[#F5F5F5]' id='Projects'>
       <div className='project-insidebox flex w-11/12 justify-between justify-around m-auto pb-20 pt-8'>
 
         {

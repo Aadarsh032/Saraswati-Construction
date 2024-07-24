@@ -9,7 +9,7 @@ import persondigging from '../../assets/person-digging.png'
 const Home = () => {
   return (
     <>
-      <div className=' relative font-sans'>
+      <div className=' relative font-sans' id='Home'>
         <img src={homebackground} alt="" />
         <div className=' absolute top-0 w-full my-4'>
           <Navbar />

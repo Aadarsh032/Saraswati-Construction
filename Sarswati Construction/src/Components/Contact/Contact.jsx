@@ -5,7 +5,7 @@ import location_icon from '../../assets/location_icon.png'
 
 const Contact = () => {
     return (
-        <div className='contact-maindiv bg-[#F5F5F5] flex  '>
+        <div className='contact-maindiv bg-[#F5F5F5] flex' id='Contact'>
             <div className='contact-left w-[553px] flex flex-col gap-[15px] justify-center pl-16'>
                 <div className='contact-heading w-[374px] h-[103px] flex flex-col gap-5'>
                     <h3 className='text-[26px] font-bold' style={{ color: '#B96D79' }}>Location</h3>

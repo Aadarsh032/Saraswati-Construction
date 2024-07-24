@@ -9,7 +9,7 @@ import Backdrop from '../Backdrop/Backdrop'
 const AboutUs = () => {
   return (
      <>
-    <div className='aboutus bg-neutral-100 '>
+    <div className='aboutus bg-neutral-100 ' id='AboutUs'>
 
       <div className='flex items-center justify-center gap-10'>
 
