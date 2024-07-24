@@ -43,9 +43,9 @@ const RoseAvenue = () => {
                
                {/* bottom right box */}
               
-             <div className='roseavenue-bottom-right w-[1260px] h-[720px] ml-12 mt-72'>
+             <div className='roseavenue-bottom-right w-[1220px] h-[720px] ml-12 mt-72'>
                     
-                    <div className='roseavenue-bottom-right-inside w-[1260px] h-[389px] flex flex-col gap-3'>
+                    <div className='roseavenue-bottom-right-inside w-[1220px] h-[389px] flex flex-col gap-3'>
                           <h1 className='roseavenue-mainheading font-bold text-5xl text-[#DF7F8E]' >ROSE AVENUE</h1>
                           <h3 className='roseavenue-slogan font-semibold text-[27px]'>Where your legacy finds a home</h3>
                           <p className='description text-xl'>Living designed with a passion towards creating an Experience, every house is created with your lifestyle as a blueprint. A standard of living that entwines itself smoothly with the ways of nature, while working towards a distinctly luxurious way of life.
