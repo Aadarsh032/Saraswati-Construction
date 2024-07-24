@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import aboutrightimage1 from '../../assets/Rectangle4.png'
 import aboutrightimage2 from '../../assets/playutt.png'
  import longarrowwhiteright from '../../assets/long-arrow-right-white.png'
@@ -6,21 +6,32 @@ import aboutrightimage2 from '../../assets/playutt.png'
 
 import Backdrop from '../Backdrop/Backdrop'
 
+import 'aos/dist/aos.css'
+import AOS from 'aos';
+
+
 const AboutUs = () => {
+
+  useEffect(()=>{
+    AOS.init({duration:2000})
+ },[]);
+
+
+
   return (
      <>
-    <div className='aboutus bg-neutral-100 ' id='AboutUs'>
+    <div className='aboutus bg-neutral-100 ' id='AboutUs' >
 
       <div className='flex items-center justify-center gap-10'>
 
-        <div className='w-1/2'>
+        <div className='w-1/2' data-aos="slide-right">
           <div className='aboutusleft relative m-24 mb-28'>
             <img src={aboutrightimage1} alt="" />
             <img src={aboutrightimage2} alt="" className='absolute -bottom-24 right-32' />
           </div>
         </div>
 
-        <div className="aboutusright w-1/2 flex flex-col gap-6">
+        <div className="aboutusright w-1/2 flex flex-col gap-6" data-aos="fade">
 
           <div className='w-3/4 flex flex-col gap-6'>
             <h1 className='text-2xl font-bold ' style={{color:'#B96D79'}}>About Us</h1>

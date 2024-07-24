@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import map from '../../assets/map.png'
 import location_icon from '../../assets/location_icon.png'
+import 'aos/dist/aos.css'
+import AOS from 'aos';
 
 
 const Contact = () => {
+
+    useEffect(()=>{
+        AOS.init({duration:1000})
+     },[]);
+
+     
+
     return (
         <div className='contact-maindiv bg-[#F5F5F5] flex' id='Contact'>
             <div className='contact-left w-[553px] flex flex-col gap-[15px] justify-center pl-16'>
@@ -20,14 +29,14 @@ const Contact = () => {
                         <li className='flex justify-between'> <span> 5.Ring Road to Rose Avenue</span> <span> 3.7 km </span>  </li>
                     </ol>
                 </div>
-                <div className='contact-address w-[426px] h-[166.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg'>
+                <div className='contact-address w-[426px] h-[166.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg' data-aos="fade-down">
                     <div className='w-[356px] h-[128.97px] m-auto flex flex-col gap-1'>
                         <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px]' />
                         <h1 className=' font-bold text-xl '>Address</h1>
                         <p className='text-[17px]'>Commitment to the highest standards of construction and design.</p>
                     </div>
                 </div>
-                <div className='contact-phone w-[426px] h-[140.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg'>
+                <div className='contact-phone w-[426px] h-[140.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg' data-aos="fade-down">
                     <div className='w-[356px] h-[102.97px] m-auto flex flex-col gap-1'>
                     <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px]' />
                     <h1 className=' font-bold text-xl'>Phone No</h1>
@@ -35,7 +44,7 @@ const Contact = () => {
                     </div>
             
                 </div>
-                <div className='contact-email w-[426px] h-[140.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg'>
+                <div className='contact-email w-[426px] h-[140.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg' data-aos="fade-down">
 
                     <div className='w-[356px] h-[102.97px] m-auto flex flex-col gap-1'>
                     <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px]' />
