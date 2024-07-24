@@ -48,8 +48,7 @@ const RoseAvenue = () => {
                                <br /><br />
                                With a strong project management and real estate development experience of its developers, Rose Avenue will witness application of the latest concepts of architecture
                           </p>
-                          <button className='downloadbrochure-btn font-bold text-[16px] bg-black px-9 py-3 flex flex-row items-center gap-2 rounded-3xl max-w-max text-[#FFFFFF] mt-9' >Download Button<img src={whitearrow} alt="" /></button>
-                            
+                          <button className='downloadbrochure-btn font-bold text-[16px] bg-black px-9 py-3 flex flex-row items-center gap-2 rounded-3xl max-w-max text-[#FFFFFF] mt-9' >Download Brochure<img src={whitearrow} alt="" /></button>  
                     </div>
 
              </div>

@@ -8,6 +8,7 @@ import Specification from './Components/Specification/Specification'
 import Contact from './Components/Contact/Contact'
 import RoseAvenue from './Components/RoseAvenue/RoseAvenue'
 import Footer from './Components/Footer/Footer'
+import Backdrop2 from './Components/Backdrop2/Backdrop2'
 
 
 
@@ -21,6 +22,7 @@ function App() {
        <Projects/>
        <FloorPlans/>
        <Amenities/>
+       <Backdrop2/>
        <Specification/>
        <Contact/>
       <Footer/>
