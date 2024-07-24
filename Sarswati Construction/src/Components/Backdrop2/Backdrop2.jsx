@@ -14,8 +14,8 @@ const Backdrop2 = () => {
 
   return (
     <div className='backdrop2-maindiv relative'>
-      <img src={backdrop2} alt="" className='backdrop2-image ' />
-      <div className=' backdrop2-overlap absolute top-0 p-[100px] py-[130px]   w-[1856px] h-[570px] bg-custom-gradient'>
+      <img src={backdrop2} alt="" className='backdrop2-image w-[1897px] h-[585px] ' />
+      <div className=' backdrop2-overlap absolute top-0 p-[100px] py-[130px]  w-[1897px] h-[585px] bg-custom-gradient'>
         <div className='backdrop2-overlap-left w-[1000px] text-white '>
           <div className='backdrop2-overlap-left-top  w-[1000px] flex flex-col gap-5 ' data-aos="slide-up" >
             <h3 className='heading font-bold text-[22px] text-[#DF7F8E]'>Nothing but the best</h3>
