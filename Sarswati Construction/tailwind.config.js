@@ -13,9 +13,36 @@ export default {
     extend: {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.2))',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        }
+      },
+      animation: {
+        fadeIn: 'fadeIn 2s ease-in-out',
       }
     }
   },
   plugins: [],
 }
 
+
+
+// module.exports = {
+//   theme: {
+//     extend: {
+//       keyframes: {
+//         fadeIn: {
+//           '0%': { opacity: '0' },
+//           '100%': { opacity: '1' },
+//         }
+//       },
+//       animation: {
+//         fadeIn: 'fadeIn 3s ease-in-out',
+//       }
+//     }
+//   },
+//   plugins: [],
+// }
