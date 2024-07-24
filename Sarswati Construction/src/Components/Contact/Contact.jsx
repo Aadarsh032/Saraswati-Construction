@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
             <div className='contact-imagesection w-[1367px] h-[868px] flex justify-end'>
                 <div >
-                <iframe className='w-[1340px] h-[868px] border-2' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7326.21519380224!2d85.270039!3d23.3481161!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4df000e8915df%3A0xf9d2aec92255e69d!2sRose%20Avenue%20-%20project%20by%20Sarswati%20Consultancy%20and%20Construction!5e0!3m2!1sen!2sin!4v1721806130810!5m2!1sen!2sin" ></iframe>
+                <iframe className='w-[1300px] h-[868px] border-2' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7326.21519380224!2d85.270039!3d23.3481161!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4df000e8915df%3A0xf9d2aec92255e69d!2sRose%20Avenue%20-%20project%20by%20Sarswati%20Consultancy%20and%20Construction!5e0!3m2!1sen!2sin!4v1721806130810!5m2!1sen!2sin" ></iframe>
                 </div>
             </div>
         </div>

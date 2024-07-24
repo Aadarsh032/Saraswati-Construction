@@ -6,6 +6,8 @@ import FloorPlans from './Components/FloorPlans/FloorPlans'
 import Amenities from './Components/Amenities/Amenities'
 import Specification from './Components/Specification/Specification'
 import Contact from './Components/Contact/Contact'
+import RoseAvenue from './Components/RoseAvenue/RoseAvenue'
+import Footer from './Components/Footer/Footer'
 
 
 
@@ -15,11 +17,13 @@ function App() {
     <>
        <Home/>
        <AboutUs/>
+       <RoseAvenue/>
        <Projects/>
        <FloorPlans/>
        <Amenities/>
        <Specification/>
        <Contact/>
+      <Footer/>
     </>
   )
 }
