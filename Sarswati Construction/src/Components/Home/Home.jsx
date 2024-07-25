@@ -9,6 +9,8 @@ import persondigging from '../../assets/person-digging.png'
 import AnimateLeftRight from '../Animate/AnimateLeftRight/AnimateLeftRight'
 import AnimateUpDown from '../Animate/AnimateUpDown/AnimateUpDown'
 
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 const Home = () => {
 
@@ -24,7 +26,7 @@ const Home = () => {
            <h3  className='homecontent-center-line font-bold text-4xl text-white'  >Consultancy & Constructions</h3>
            <p className='homecontent-center-line text-4xl text-white' >Building a Better Tomorrow</p>
             <AnimateLeftRight direction='left' >
-            <button className='ourservices-button flex items-center gap-4 font-bold text-2xl bg-[#FFFFFF] max-w-max p-6 px-16 rounded-3xl '>Our Services <img src={homearrow} alt="" /></button>
+            <button className='ourservices-button flex items-center gap-4 font-bold text-2xl bg-[#FFFFFF] max-w-max p-6 px-16 rounded-3xl '><AnchorLink href='#RoseAvenue' className='anchorlink flex items-center gap-4'>Our Service <img src={homearrow} alt="" /></AnchorLink></button>
             </AnimateLeftRight>
          </div>
 
