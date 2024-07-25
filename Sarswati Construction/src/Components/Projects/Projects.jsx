@@ -1,15 +1,12 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import projects from '../../assets/projects'
 import IndividualProject from './IndividualProject/IndividualProject'
-import 'aos/dist/aos.css'
-import AOS from 'aos';
+
+import AnimateFadeIn from '../Animate/AnimateFade/AnimateFadeIn';
 
 
 const Projects = () => {
 
-  useEffect(()=>{
-     AOS.init({duration:1000})
-  },[]);
 
   return (
     <div className='projects-mainbox bg-[#F5F5F5]' id='Projects'>
@@ -18,9 +15,9 @@ const Projects = () => {
         {
           projects.map((element, index) => {
             return (
-              <div data-aos="zoom-in">
-                    <IndividualProject  key={index} title={element.title} image={element.image} />
-              </div>
+              <AnimateFadeIn  key={index} >
+                    <IndividualProject  title={element.title} image={element.image} />
+            </AnimateFadeIn>
               
             )
           })

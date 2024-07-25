@@ -5,14 +5,11 @@ import christmastree from '../../assets/christmas tree_icon.png'
 import cityicon from '../../assets/city_icon.png'
 import whitearrow from '../../assets/long-arrow-right-white.png'
 
-import 'aos/dist/aos.css'
-import AOS from 'aos';
+
+import AnimateLeftRight from '../Animate/AnimateLeftRight/AnimateLeftRight'
 
 const RoseAvenue = () => {
        
-  useEffect(()=>{
-    AOS.init({duration:2000})
- },[]);
 
 
 
@@ -24,20 +21,26 @@ const RoseAvenue = () => {
                    {/* bottom left box */}
 
              <div className='roseavenue-bottom-left bg-white rounded-3xl w-[491px] h-[815px] flex flex-col items-center gap-5 justify-center'>
-                  <div className='top w-[411px] ' data-aos="slide-right" >
+                  <div className='top w-[411px] ' >
+                  <AnimateLeftRight direction='left' >
                      <img src={cityicon} alt="" className=' w-[58.56px] h-[58.56px] mb-6' />
                      <h1 className='heading font-bold text-2xl'>Prime Location</h1>
                      <p className='paragraph font-medium text-xl'>Strategically situated in a prime area of Ranchi, Rose Avenue provides unparalleled convenience and connectivity.</p>
+                     </AnimateLeftRight>
                   </div>
-                  <div className='middle w-[411px]' data-aos="slide-right">
-                  <img src={christmastree} alt="" className=' w-[58.56px] h-[58.56px] mb-6' />
+                  <div className='middle w-[411px]' >
+                  <AnimateLeftRight direction='left' >
+                     <img src={christmastree} alt="" className=' w-[58.56px] h-[58.56px] mb-6' />
                      <h1 className='heading font-bold text-2xl'>Calm and Greenery Neighbourhood</h1>
                      <p className='paragraph font-medium text-xl'>Surrounded by lush greenery, this tranquil neighborhood offers a refreshing escape from the city's hustle and bustle.</p>
+                     </AnimateLeftRight>
                   </div>
-                  <div className='bottom w-[411px]' data-aos="slide-right">
-                  <img src={watericon} alt="" className=' w-[58.56px] h-[58.56px] mb-6' />
+                  <div className='bottom w-[411px]' >
+                  <AnimateLeftRight direction='left' >
+                     <img src={watericon} alt="" className=' w-[58.56px] h-[58.56px] mb-6' />
                      <h1 className='heading font-bold text-2xl'>Swimming Pool for Your Relaxation</h1>
                      <p className='paragraph font-medium text-xl'>At Rose Avenue, life extends beyond the walls of your home. Dive into the sparkling infinity pool, a perfect retreat for relaxation and leisure.</p>
+                     </AnimateLeftRight>
                   </div>
              </div>
                

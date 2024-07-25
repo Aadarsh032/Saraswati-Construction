@@ -1,15 +1,12 @@
 import React, { useEffect } from 'react'
 import map from '../../assets/map.png'
 import location_icon from '../../assets/location_icon.png'
-import 'aos/dist/aos.css'
-import AOS from 'aos';
+import AnimateUpDown from '../Animate/AnimateUpDown/AnimateUpDown';
 
 
 const Contact = () => {
 
-    useEffect(()=>{
-        AOS.init({duration:1000})
-     },[]);
+
 
      
 
@@ -29,14 +26,17 @@ const Contact = () => {
                         <li className='flex justify-between'> <span> 5.Ring Road to Rose Avenue</span> <span> 3.7 km </span>  </li>
                     </ol>
                 </div>
-                <div className='contact-address w-[426px] h-[166.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg' data-aos="fade-down">
+                <AnimateUpDown direction='up'>
+                <div className='contact-address w-[426px] h-[166.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg'>
                     <div className='w-[356px] h-[128.97px] m-auto flex flex-col gap-1'>
                         <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px]' />
                         <h1 className=' font-bold text-xl '>Address</h1>
                         <p className='text-[17px]'>Commitment to the highest standards of construction and design.</p>
                     </div>
                 </div>
-                <div className='contact-phone w-[426px] h-[140.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg' data-aos="fade-down">
+                </AnimateUpDown>
+                <AnimateUpDown direction='up'>
+                <div className='contact-phone w-[426px] h-[140.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg' >
                     <div className='w-[356px] h-[102.97px] m-auto flex flex-col gap-1'>
                     <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px]' />
                     <h1 className=' font-bold text-xl'>Phone No</h1>
@@ -44,7 +44,9 @@ const Contact = () => {
                     </div>
             
                 </div>
-                <div className='contact-email w-[426px] h-[140.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg' data-aos="fade-down">
+                </AnimateUpDown>
+                <AnimateUpDown direction='up'>
+                <div className='contact-email w-[426px] h-[140.97px] bg-white rounded-3xl  flex flex-col justify-center shadow-lg'>
 
                     <div className='w-[356px] h-[102.97px] m-auto flex flex-col gap-1'>
                     <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px]' />
@@ -53,6 +55,7 @@ const Contact = () => {
                     </div>
                     
                 </div>
+                </AnimateUpDown>
             </div>
             <div className='contact-imagesection w-[1367px] h-[868px] flex justify-end'>
                 <div >

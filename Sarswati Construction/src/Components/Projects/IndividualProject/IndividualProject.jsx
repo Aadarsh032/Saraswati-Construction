@@ -1,9 +1,11 @@
 import React from 'react'
 import pinkarrow from '../../../assets/long-arrow-right-pink.png'
 
+
 const IndividualProject = (props) => {
     return (
-        <div className='individual-projects'>
+       
+        <div className='individual-projects  '>
             <div className='individual-projects-image'><img src={props.image} alt="" className=' w-[554px] h-[380px] rounded-t-3xl' /></div>
             <div className='individual-projects-title bg-[#FFFFFF] flex flex-col p-9 gap-3  rounded-b-3xl text-2xl font-bold'>
                 {props.title} 
@@ -12,6 +14,7 @@ const IndividualProject = (props) => {
                 </div>
 
         </div>
+        
     )
 }
 

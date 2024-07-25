@@ -1,18 +1,15 @@
 import React, { useEffect } from 'react'
 import whitearrow from '../../assets/long-arrow-right-white.png'
 import {amenitiesplaycard } from '../../assets/amenitiesplaycard'
-// import whitearrow from '../../assets/long-arrow-right-white.png'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
+import AnimateLeftRight from '../Animate/AnimateLeftRight/AnimateLeftRight';
 
 
 const Amenities = () => {
 
-  useEffect(()=>{
-      AOS.init({duration:1000});
-  })
 
-  let delay=0;
+
+  let delayed=0;
 
   return (
     <div className='amenities bg-[#F5F5F5]  pb-28 pt-7 flex flex-col gap-24'  >
@@ -26,10 +23,11 @@ const Amenities = () => {
       <div className='amenities-bottom flex w-[93%] m-auto justify-evenly'>
         { amenitiesplaycard.map((element, index) => {
 
-              delay+=200;
+              delayed+=0.2;
 
              return(
-               <div className='amenitiesplaycard relative flex justify-center' data-aos="fade-right" data-aos-delay={delay} >
+              <AnimateLeftRight direction='left' delay={delayed} key={index} >
+               <div className='amenitiesplaycard relative flex justify-center'  >
                <img src={element.image} alt=""  />
                <div className='amenitiesplaycard-info absolute -bottom-11  flex items-center gap-1 w-[356px] h-[93px] m-auto bg-white rounded-3xl font-semibold text-2xl '>
                 
@@ -41,6 +39,7 @@ const Amenities = () => {
                 </div>
                </div>
              </div>
+             </AnimateLeftRight>
              )
              
         })}

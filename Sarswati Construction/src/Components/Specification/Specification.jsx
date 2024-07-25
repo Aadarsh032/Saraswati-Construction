@@ -3,8 +3,8 @@ import Specificfeature from './Specificfeature/Specificfeature'
 import specification1 from '../../assets/specification1.png'
 import specification2 from '../../assets/specification2.png'
 
-import 'aos/dist/aos.css'
-import AOS from 'aos';
+import AnimateLeftRight from '../Animate/AnimateLeftRight/AnimateLeftRight'
+import AnimateUpDown from '../Animate/AnimateUpDown/AnimateUpDown'
 
 
 let specification_details = {
@@ -61,10 +61,6 @@ let specification_details = {
 
 const Specification = () => {
 
-    useEffect(()=>{
-        AOS.init({duration:1000})
-     },[]);
-
      
 
     return (
@@ -75,7 +71,9 @@ const Specification = () => {
                 <div className='specification-top left flex flex-col gap-5 w-[374px]'>
                     <p className='font-bold text-[16px]' style={{color:'#DF7F8E'}}>The pinnacle of success is where you find the keys to the kingdom</p>
                     <h1 className='font-bold text-5xl'>Specifications</h1>
-                    <img src={specification1} className='w-[374px] h-[182px] ' alt="" data-aos="slide-right" />
+                   <AnimateLeftRight direction='left'>
+                   <img src={specification1} className='w-[374px] h-[182px] ' alt="" />
+                   </AnimateLeftRight>                  
                 </div>
 
                 <div className='specification-top middle'>
@@ -104,9 +102,10 @@ const Specification = () => {
                 </div>
 
                 <div className='specification-right '>
-                     <img src={specification2} alt="" className='w-[470px] h-[346px]' data-aos="slide-up"/>
+                    <AnimateUpDown direction='down'>
+                    <img src={specification2} alt="" className='w-[470px] h-[346px]'/>
+                    </AnimateUpDown>
                 </div>
-
             </div>
         </>
 
