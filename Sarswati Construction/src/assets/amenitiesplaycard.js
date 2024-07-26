@@ -11,7 +11,7 @@ export const amenitiesplaycard=[
     },
     {
         image: gym,
-        title: "Gym,Yoga/Meditation Hall",
+        title: "Gym,Yoga/ Meditation Hall",
     },
     {
         image: Kids_Play,

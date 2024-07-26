@@ -12,7 +12,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.2))',
+        'custom-gradient': 'linear-gradient(to right, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),  rgba(255, 255, 255, 0.2))',
       },
       keyframes: {
         fadeIn: {
@@ -22,7 +22,10 @@ export default {
       },
       animation: {
         fadeIn: 'fadeIn 1s ease-in-out',
-      }
+      },
+      screens: {
+        // 'max-xsm': { 'max': '500px' }
+      },
     }
   },
   plugins: [],

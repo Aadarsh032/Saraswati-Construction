@@ -9,13 +9,16 @@ const Projects = () => {
 
   return (
     <div className='projects-mainbox bg-[#F5F5F5]' id='Projects'>
-      <div className='project-insidebox flex w-11/12 justify-evenly m-auto pb-20 pt-8'>
+      <div className='project-insidebox flex w-11/12 justify-evenly m-auto pb-20 pt-8 max-2xl:gap-20 max-sm:flex-col  max-sm:m-auto '>
 
         {
           projects.map((element, index) => {
             return (
               <AnimateFadeIn  key={index} >
-                    <IndividualProject  title={element.title} image={element.image} />
+                <div className='' >
+                <IndividualProject  title={element.title} image={element.image} />
+                </div>
+                    
             </AnimateFadeIn>
               
             )

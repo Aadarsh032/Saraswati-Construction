@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import map from '../../assets/map.png'
 import location_icon from '../../assets/location_icon.png'
 import AnimateUpDown from '../Animate/AnimateUpDown/AnimateUpDown';
 
