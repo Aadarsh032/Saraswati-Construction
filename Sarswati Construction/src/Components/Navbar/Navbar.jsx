@@ -8,7 +8,7 @@ import telephone from '../../assets/long-arrow-right.png'
 
 const Navbar = () => {
     return (
-        <div className='Navbar bg-[#06060642] flex items-center justify-around  '>
+        <div className='Navbar bg-[#0606066b] flex items-center justify-around  '>
             <div className='logobox'><img src={blacklogo} alt="logo" className=' w-44 h-20 max-lg:h-14 max-lg:w-32 max-md:h-10 max-md:w-20 ' /></div>
             <div className='nav_icons list-none flex items-center justify-center gap-10 text-xl font-bold max-lg:text-xs max-md:text-[10px] '>
                 <li className="naviconsele " id='naviconhome'> <AnchorLink href='#Home' className='anchorlink'>Home</AnchorLink></li>

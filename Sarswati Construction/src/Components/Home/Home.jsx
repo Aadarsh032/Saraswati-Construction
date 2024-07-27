@@ -10,6 +10,7 @@ import AnimateLeftRight from '../Animate/AnimateLeftRight/AnimateLeftRight'
 
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Headroom from 'react-headroom'
 
 
 const Home = () => {
@@ -19,7 +20,10 @@ const Home = () => {
       <div className=' relative animate-fadeIn' id='Home' >
         <img src={homebackground} alt="" className=' w-[100%]' />
         <div className=' absolute top-0 w-full my-4'>
+          <Headroom >
           <Navbar />
+          </Headroom>
+          
         </div>
         <div className='homecontent-center absolute top-80 left-28 flex gap-7 flex-col max-2xl:top-52  max-xl:top-44 max-xl:gap-4  max-lg:gap-2 max-md:top-32 max-md:left-20 max-sm:top-24'>
          <AnimateLeftRight direction='left' delay={0.2}  >
