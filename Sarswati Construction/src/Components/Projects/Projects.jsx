@@ -9,7 +9,7 @@ const Projects = () => {
 
   return (
     <div className='projects-mainbox bg-[#F5F5F5]' id='Projects'>
-      <div className='project-insidebox flex w-11/12 justify-evenly m-auto pb-20 pt-8 max-2xl:gap-20 max-sm:flex-col  max-sm:m-auto '>
+      <div className='project-insidebox flex w-11/12 justify-evenly m-auto pb-20 pt-8 max-2xl:gap-20 max-sm:flex-col   '>
 
         {
           projects.map((element, index) => {

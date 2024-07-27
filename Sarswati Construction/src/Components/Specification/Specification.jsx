@@ -61,51 +61,54 @@ let specification_details = {
 
 const Specification = () => {
 
-     
+
 
     return (
 
         <>
-            <div className='specification-top flex w-[95%] pt-12 pl-[126px] gap-[48px] pb-[50px]'>
+            <div className='specification-top  flex w-[95%] pt-12 pl-[126px] gap-[48px] pb-[50px] max-xl:pl-[40px] max-xl:pb-[20px] max-lg:flex-col max-md:pl-[10px]  '>
 
-                <div className='specification-top left flex flex-col gap-5 w-[374px]'>
-                    <p className='font-bold text-[16px]' style={{color:'#DF7F8E'}}>The pinnacle of success is where you find the keys to the kingdom</p>
-                    <h1 className='font-bold text-5xl'>Specifications</h1>
-                   <AnimateLeftRight direction='left'>
-                   <img src={specification1} className='w-[374px] h-[182px] ' alt="" />
-                   </AnimateLeftRight>                  
+                <div className='specification-top left flex flex-col gap-5 w-[374px] max-lg:w-[100%] '>
+                    <p className='font-bold text-[16px] text-[#DF7F8E] max-lg:text-center  max-lg:text-2xl ' >The pinnacle of success is where you find the keys to the kingdom</p>
+                    <h1 className='font-bold text-5xl max-lg:text-center'>Specifications</h1>
+                    <AnimateLeftRight direction='left'>
+                        <img src={specification1} className='w-[374px] h-[182px] max-lg:m-auto ' alt="" />
+                    </AnimateLeftRight>
                 </div>
-
-                <div className='specification-top middle'>
-                    <Specificfeature title={specification_details.structure.title} details={specification_details.structure.details} />
-                    <Specificfeature title={specification_details.walls.title} details={specification_details.walls.details} />
-                    <Specificfeature title={specification_details.doors.title} details={specification_details.doors.details} />
-                </div>
-                <div className='specification-top right'>
-                    <Specificfeature title={specification_details.floors.title} details={specification_details.floors.details} />
-                    <Specificfeature title={specification_details.toilets.title} details={specification_details.toilets.details} />
-                    <Specificfeature title={specification_details.electrification.title} details={specification_details.electrification.details} />
+                <div className='specification-bottom-list-box  flex flex-row gap-2 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-8 max-md:flex-col max-md:w-fit max-md:justify-center max-sm:pl-0 '>
+                    <div className='specification-top middle'>
+                        <Specificfeature title={specification_details.structure.title} details={specification_details.structure.details} />
+                        <Specificfeature title={specification_details.walls.title} details={specification_details.walls.details} />
+                        <Specificfeature title={specification_details.doors.title} details={specification_details.doors.details} />
+                    </div>
+                    <div className='specification-top right'>
+                        <Specificfeature title={specification_details.floors.title} details={specification_details.floors.details} />
+                        <Specificfeature title={specification_details.toilets.title} details={specification_details.toilets.details} />
+                        <Specificfeature title={specification_details.electrification.title} details={specification_details.electrification.details} />
+                    </div>
                 </div>
             </div>
 
-            <div className='specification-bottom flex  pl-[126px] gap-[48px] '>
-                
-            <div className='specification-top left'>
-                    <Specificfeature title={specification_details.windows.title} details={specification_details.windows.details} />
-                    <Specificfeature title={specification_details.kitchen.title} details={specification_details.kitchen.details} />
-                    <Specificfeature title={specification_details.water_arrangements_sanitary.title} details={specification_details.water_arrangements_sanitary.details} />
-                </div>
-                <div className='specification-top middle'>
-                    <Specificfeature title={specification_details.water_arrangements.title} details={specification_details.water_arrangements.details} />
-                    <Specificfeature title={specification_details.parking.title} details={specification_details.parking.details} />
-                    <Specificfeature title={specification_details.staircase.title} details={specification_details.staircase.details} />
-                </div>
+            <div className='specification-bottom flex w-[95%] pl-[126px] gap-[48px] max-xl:pl-[40px]  max-xl:pb-[20px] max-lg:flex-col max-md:pl-[10px]   '>
+                <div className=' specification-bottom-list-box flex flex-row gap-2 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-9 max-md:flex-col max-md:w-fit max-md:justify-center   ' >
+                    <div className='specification-top-left '>
+                        <Specificfeature title={specification_details.windows.title} details={specification_details.windows.details} />
+                        <Specificfeature title={specification_details.kitchen.title} details={specification_details.kitchen.details} />
+                        <Specificfeature title={specification_details.water_arrangements_sanitary.title} details={specification_details.water_arrangements_sanitary.details} />
+                    </div>
 
+                    <div className='specification-top-middle'>
+                        <Specificfeature title={specification_details.water_arrangements.title} details={specification_details.water_arrangements.details} />
+                        <Specificfeature title={specification_details.parking.title} details={specification_details.parking.details} />
+                        <Specificfeature title={specification_details.staircase.title} details={specification_details.staircase.details} />
+                    </div>
+                </div>
                 <div className='specification-right '>
                     <AnimateUpDown direction='down'>
-                    <img src={specification2} alt="" className='w-[470px] h-[346px]'/>
+                        <img src={specification2} alt="" className='w-[470px] h-[346px] max-lg:m-auto' />
                     </AnimateUpDown>
                 </div>
+
             </div>
         </>
 

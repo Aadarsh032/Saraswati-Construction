@@ -14,7 +14,7 @@ const RoseAvenue = () => {
   // h-[1146px]
 
   return (
-    <div id='RoseAvenue' className='roseavenue-maindiv bg-[#F5F5F5] relative pb-[700px] max-xl:pb-[550px] max-md:pb-[400px] max-sm:pb-[1350px] '>
+    <div id='RoseAvenue' className='roseavenue-maindiv w-fit bg-[#F5F5F5] relative pb-[700px] max-xl:pb-[550px] max-md:pb-[400px] max-sm:pb-[1350px] '>
         <img src={backdrop} alt="" className='backdropimage' />
         <div className='roseavenue-bottom flex flex-row pl-24 absolute top-56 max-xl:top-40 max-xl:pl-32 max-lg:top-28 max-lg:pl-20  max-md:pl-10 max-md:top-20 max-sm:flex-col max-sm:pl-0  ' >
                   
