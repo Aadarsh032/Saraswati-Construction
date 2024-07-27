@@ -23,9 +23,9 @@ function App() {
        <FloorPlans/>
        <Amenities/>
        <Backdrop2/>
-       <Specification/>
+       {/* <Specification/>
        <Contact/>
-      <Footer/>
+      <Footer/> */}
     </>
   )
 }
