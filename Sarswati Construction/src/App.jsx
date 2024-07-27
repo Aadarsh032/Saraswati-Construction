@@ -24,7 +24,7 @@ function App() {
        <Amenities/>
        <Backdrop2/>
        <Specification/>
-       {/* <Contact/> */}
+       <Contact/>
       {/* <Footer/> */}
     </>
   )
