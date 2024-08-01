@@ -48,9 +48,9 @@ const RoseAvenue = () => {
                {/* max-2xl:w-[1005px]  max-xl:w-[845px] */}
                {/* w-[1220px] */}
               
-             <div className='roseavenue-bottom-right h-[720px] ml-12 mt-72 max-2xl:mt-56 max-lg:mt-44 max-lg:ml-6 max-md:mt-28  max-sm:mt-10 max-sm:w-[80%] max-sm:flex max-sm:m-auto '>
+             <div className='roseavenue-bottom-right h-[720px]  ml-12 mt-72 max-2xl:mt-56 max-lg:mt-44 max-lg:ml-6 max-md:mt-28  max-sm:mt-10 max-sm:w-[80%] max-sm:flex max-sm:m-auto '>
                     
-                    <div className='roseavenue-bottom-right-inside w-fit h-[389px] flex flex-col gap-3 max-2xl:w-[900px] max-2xl:gap-1 max-xl:w-[700px] max-lg:w-fit   '>
+                    <div className='roseavenue-bottom-right-inside pr-3 w-fit h-[389px] flex flex-col gap-3  max-2xl:gap-1  max-lg:w-fit   '>
                           <h1 className='roseavenue-mainheading font-bold text-5xl text-[#DF7F8E] max-2xl:text-4xl max-xl:text-2xl max-lg:text-xl max-sm:text-center max-sm:text-4xl ' >ROSE AVENUE</h1>
                           <h3 className='roseavenue-slogan font-semibold text-[27px] max-2xl:text-2xl max-xl:text-xl max-lg:text-lg max-sm:text-center max-sm:text-2xl '>Where your legacy finds a home</h3>
                           <p className='description text-xl max-2xl:text-lg  max-xl:text-base  max-lg:text-sm  max-md:text-xs max-sm:text-center max-sm:text-xl  '>Living designed with a passion towards creating an Experience, every house is created with your lifestyle as a blueprint. A standard of living that entwines itself smoothly with the ways of nature, while working towards a distinctly luxurious way of life.
