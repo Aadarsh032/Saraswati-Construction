@@ -1,0 +1,5 @@
+@media (max-width:400px) {
+    .backdrop2-overlap-left-bottom{
+        display: none;
+    }
+}

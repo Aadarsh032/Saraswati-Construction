@@ -21,11 +21,14 @@ function App() {
        <RoseAvenue/>
        <Projects/>
        <FloorPlans/>
-       <Amenities/>
+       {/* <Amenities/> */}
        <Backdrop2/>
        <Specification/>
        <Contact/>
-      {/* <Footer/> */}
+      <Footer/>
+
+      
+        
     </>
   )
 }

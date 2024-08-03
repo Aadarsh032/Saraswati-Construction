@@ -10,7 +10,7 @@ const Contact = () => {
      
 
     return (
-        <div className='contact-maindiv w-full bg-[#F5F5F5] flex justify-between max-md:flex-col max-md:gap-7 ' id='Contact'>
+        <div className='contact-maindiv  w-full bg-[#F5F5F5] flex justify-between max-md:flex-col max-md:gap-7 max-md:py-5 ' id='Contact'>
             <div className='contact-left  w-[33%] flex flex-col gap-[15px] justify-center pl-16 max-lg:gap-3  max-lg:w-fit max-md:w-full  max-md:pl-0 '>
                 
                 <div className='contact-leftinnerdiv w-4/5 flex flex-col gap-7 max-md:m-auto'>
@@ -31,7 +31,7 @@ const Contact = () => {
                     </ol>
                 </div>
                 <AnimateUpDown direction='up'>
-                <div className='contact-address p-4 bg-white rounded-3xl flex flex-col justify-center shadow-lg max-xl:px-5 max-xl:h-32  max-xl:pt-3 max-lg:h-fit max-lg:pb-3  max-md:m-auto '>
+                <div className='contact-address p-4 bg-white rounded-3xl flex flex-col justify-center shadow-lg max-xl:px-5 max-xl:h-32  max-xl:pt-3 max-lg:h-fit max-lg:pb-3   '>
                     <div className='  flex flex-col gap-1 max-2xl:w-fit max-lg:h-fit'>
                         <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px] max-xl:w-[12px] max-xl:h-[18px]' />
                         <h1 className=' font-bold text-xl max-xl:text-lg  max-lg:text-base'>Address</h1>
@@ -40,7 +40,7 @@ const Contact = () => {
                 </div>
                 </AnimateUpDown>
                 <AnimateUpDown direction='up'>
-                <div className='contact-phone  p-4 bg-white rounded-3xl  flex flex-col justify-center shadow-lg  max-xl:px-5 max-xl:h-32  max-xl:pt-3 max-lg:h-fit max-lg:pb-3  max-md:m-auto ' >
+                <div className='contact-phone  p-4 bg-white rounded-3xl  flex flex-col justify-center shadow-lg  max-xl:px-5 max-xl:h-32  max-xl:pt-3 max-lg:h-fit max-lg:pb-3   ' >
                     <div className='  flex flex-col gap-1 max-lg:h-fit'>
                     <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px] max-xl:w-[12px] max-xl:h-[18px]' />
                     <h1 className=' font-bold text-xl max-xl:text-lg'>Phone No</h1>
@@ -50,7 +50,7 @@ const Contact = () => {
                 </div>
                 </AnimateUpDown>
                 <AnimateUpDown direction='up'>
-                <div className='contact-email p-4 bg-white rounded-3xl  flex flex-col shadow-lg  max-xl:px-5 max-xl:h-32  max-xl:pt-3 max-lg:h-fit max-lg:pb-3  max-md:m-auto '>
+                <div className='contact-email p-4 bg-white rounded-3xl  flex flex-col shadow-lg  max-xl:px-5 max-xl:h-32  max-xl:pt-3 max-lg:h-fit max-lg:pb-3   '>
                     <div className='  flex flex-col gap-1 max-lg:h-fit'>
                     <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px] max-xl:w-[12px] max-xl:h-[18px]' />
                     <h1 className=' font-bold text-xl max-xl:text-lg'>Email</h1>

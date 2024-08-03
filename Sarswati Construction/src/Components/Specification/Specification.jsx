@@ -30,7 +30,7 @@ let specification_details = {
         details: "Wooden flush doors with modern heavy duty locking for main door and cylindrical locks in all bedrooms and toilet doors"
     },
     electrification: {
-        title: "ELECTRIFICATION",
+        title: "WIRING",
         details: "Concealed wiring with standard makes modular fitting & fixtures. Fan regulators, provision for AC points in all bedrooms, living & dining rooms & TV points in drawing room & Master bedroom shall be provided"
     },
     windows: {
@@ -38,7 +38,7 @@ let specification_details = {
         details: "Three track sliding aluminum windows with two glazed and one track mosquito net provision"
     },
     water_arrangements: {
-        title: "WATER ARRANGEMENTS",
+        title: "WATER",
         details: "Connection from deep tube-well to overhead tank connection with electric pump. "
     },
     kitchen: {
@@ -50,7 +50,7 @@ let specification_details = {
         details: "Floor Checkered Tiles / interlocking pavers / Industrial coating."
     },
     water_arrangements_sanitary: {
-        title: "WATER ARRANGEMENTS",
+        title: "WATER",
         details: "All C.P. or brass fitting of standard ISI mark. White glazed vitreous sanitary ware."
     },
     staircase: {
@@ -66,16 +66,16 @@ const Specification = () => {
     return (
 
         <>
-            <div className='specification-top  flex w-[95%] pt-12 pl-[126px] gap-[48px] pb-[50px] max-xl:pl-[40px] max-xl:pb-[20px] max-lg:flex-col max-md:pl-[10px]  '>
+            <div className='specification-top  flex py-10 px-10 items-center justify-evenly max-lg:flex-col max-lg:py-0 max-lg:pt-10 max-sm:px-1 '>
 
                 <div className='specification-top left flex flex-col gap-5 w-[374px] max-lg:w-[100%] '>
                     <p className='font-bold text-[16px] text-[#DF7F8E] max-lg:text-center  max-lg:text-2xl ' >The pinnacle of success is where you find the keys to the kingdom</p>
-                    <h1 className='font-bold text-5xl max-lg:text-center'>Specifications</h1>
+                    <h1 className='font-bold text-5xl max-2xl:text-4xl max-lg:text-center'>Specifications</h1>
                     <AnimateLeftRight direction='left'>
-                        <img src={specification1} className='w-[374px] h-[182px] max-lg:m-auto ' alt="" />
+                        <img src={specification1} className='w-[374px] h-[182px] max-2xl:w-[300px] max-2xl:h-[150px]  max-lg:m-auto ' alt="" />
                     </AnimateLeftRight>
                 </div>
-                <div className='specification-bottom-list-box  flex flex-row gap-2 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-8 max-md:flex-col max-md:w-fit max-md:justify-center max-sm:pl-0 '>
+                <div className='specification-bottom-list-box  flex flex-row gap-10 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-8 max-md:flex-col max-md:w-fit max-md:justify-center max-sm:pl-0 '>
                     <div className='specification-top middle'>
                         <Specificfeature title={specification_details.structure.title} details={specification_details.structure.details} />
                         <Specificfeature title={specification_details.walls.title} details={specification_details.walls.details} />
@@ -89,8 +89,8 @@ const Specification = () => {
                 </div>
             </div>
 
-            <div className='specification-bottom flex w-[95%] pl-[126px] gap-[48px] max-xl:pl-[40px]  max-xl:pb-[20px] max-lg:flex-col max-md:pl-[10px]   '>
-                <div className=' specification-bottom-list-box flex flex-row gap-2 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-9 max-md:flex-col max-md:w-fit max-md:justify-center   ' >
+            <div className='specification-bottom flex py-10 px-10 items-center justify-evenly  max-lg:flex-col max-lg:py-0 max-sm:px-1 max-sm:pt-5 '>
+                <div className=' specification-bottom-list-box flex flex-row gap-10 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-9 max-md:flex-col max-md:w-fit max-md:justify-center   ' >
                     <div className='specification-top-left '>
                         <Specificfeature title={specification_details.windows.title} details={specification_details.windows.details} />
                         <Specificfeature title={specification_details.kitchen.title} details={specification_details.kitchen.details} />
@@ -105,7 +105,7 @@ const Specification = () => {
                 </div>
                 <div className='specification-right '>
                     <AnimateUpDown direction='down'>
-                        <img src={specification2} alt="" className='w-[470px] h-[346px] max-lg:m-auto' />
+                        <img src={specification2} alt="" className='max-lg:m-auto' />
                     </AnimateUpDown>
                 </div>
 

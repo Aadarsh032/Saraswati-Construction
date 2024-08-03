@@ -1,4 +1,4 @@
-.nav_icons {
+.nav-menu {
     color: #FFFFFF ;
 }
 #naviconhome{
@@ -8,3 +8,10 @@
 .getquotes{
     color: #FFFFFF ;
 }
+
+@media (max-width:840px) {
+
+    .quotes{
+        padding-left: 2px;
+    }
+  }

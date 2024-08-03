@@ -1,0 +1,20 @@
+/* @media (max-width:375px) {
+    
+    .specificfeature-maindiv1{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .specificfeature-right{
+        width: fit-content;
+        height: fit-content;
+    }
+    .specificfeature-left{
+        margin: auto;
+    }
+    .specificfeature-maindiv2{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 15px;
+    }
+} */

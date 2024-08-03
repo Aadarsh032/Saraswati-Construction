@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import left_building_image from '../../assets/Left-building-image.png'
-import floormapground from '../../assets/floor-map-ground.png'
-import floormap1 from '../../assets/floor-map-1.png'
-import floormap2 from '../../assets/floor-map-2.png'
+import floormapground from '../../assets/Ground Floor Plan-.jpg'
+import floormap1 from '../../assets/1st floor plan-.jpg'
+import floormap2 from '../../assets/2nd floor plan-.jpg'
 import FloorLayout from './FloorLayout/FloorLayout';
 import { useState } from 'react';
 import AnimateUpDown from '../Animate/AnimateUpDown/AnimateUpDown'
