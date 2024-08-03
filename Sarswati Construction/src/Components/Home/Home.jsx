@@ -26,9 +26,9 @@ const Home = () => {
           </Headroom>
           
         </div>
-        <div className='homecontent-center absolute top-80 left-28 flex gap-7 flex-col max-sm:left-6 max-sm:top-96 max-md:left-10'>
+        <div className='homecontent-center absolute top-80 left-28 flex gap-7 flex-col max-sm:left-6 max-sm:top-60 max-md:left-10'>
          <AnimateLeftRight direction='left' delay={0.2}  >
-          <h1 className='homecontent-center-line1 font-bold text-8xl text-white max-sm:text-6xl ' > SARASWATI</h1>
+          <h1 className='homecontent-center-line1 font-bold text-8xl text-white max-sm:text-6xl ' >SARASWATI</h1>
           </AnimateLeftRight>
           <AnimateLeftRight direction='left' delay={0.4} >
           <h3 className='homecontent-center-line2 font-bold text-4xl text-white max-sm:text-3xl '  >Consultancy & Constructions</h3>

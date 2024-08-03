@@ -16,16 +16,16 @@ const Navbar = () => {
   };
 
   return (
-    <div className='Navbar bg-[#0606066b] flex items-center justify-between p-4'>
+    <div className='Navbar bg-[#0606066b] flex items-center justify-around p-4'>
   
-      <img src={blacklogo} alt="logo" className='w-44 h-20 max-lg:h-14 max-lg:w-32 max-md:h-20 max-md:w-40 max-md:ml-7' />
-      <img src={navhamburger} alt="" className='navhamburger md:hidden w-6 h-6 max-md:mr-7 max-md:h-14 max-md:w-14 max-sm:h-12 max-sm:w-12 cursor-pointer' onClick={toggleMenu} />
+      <img src={blacklogo} alt="logo" className='w-44 h-20 max-lg:h-14 max-lg:w-32 max-md:h-20 max-md:w-40 ' />
+      <img src={navhamburger} alt="" className='navhamburger md:hidden w-6 h-6  max-md:h-14 max-md:w-14 max-sm:h-12 max-sm:w-12 cursor-pointer' onClick={toggleMenu} />
       
       
       <div
         className={`nav-menu list-none flex flex-col md:flex-row items-center justify-center gap-6 md:gap-6 text-xl font-bold max-lg:text-base   max-md:text-4xl max-sm:gap-4 absolute md:relative max-md:px-4 bg-[#0606066b] md:bg-transparent top-0 right-0 w-full md:w-auto  h-screen md:h-auto transform ${isMenuOpen ? 'translate-y-0 bg-black ' : '-translate-y-full'} md:transform-none transition-transform duration-300 ease-in-out`}
       >
-        <img src={crossicon} alt="" className='md:hidden w-6 h-6 cursor-pointer absolute top-48 right-4' onClick={toggleMenu} />
+        <img src={crossicon} alt="" className='md:hidden w-6 h-6 cursor-pointer absolute top-48 right-14' onClick={toggleMenu} />
         <li className="naviconsele"><AnchorLink href='#Home' className='anchorlink'>Home</AnchorLink></li>
         <li className="naviconsele"><AnchorLink href='#AboutUs' className='anchorlink'>About Us</AnchorLink></li>
         <li className="naviconsele flex items-center gap-2">
