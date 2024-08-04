@@ -34,7 +34,7 @@ const AboutUs = () => {
               <p className='text-lg max-2xl:text-base max-xl:text-sm max-lg:text-[10px] max-md:text-xl  max-sm:text-2xl max-md:text-center '>Welcome to Saraswati Consultancy & Constructions, where we blend modern design with traditional values. Our projects are designed to offer unparalleled luxury and convenience, creating a perfect living environment for you and your family.</p>
             </div>
             <div className='  flex items-center gap-7 max-2xl:gap-5 max-lg:gap-2  max-sm:flex-col max-sm:w-full  '>
-              <div className='w-1/2 bg-white p-8 shadow-lg rounded-3xl max-2xl:h-60  max-lg:h-fit max-sm:w-full  '  >
+              <div className='w-1/2 bg-white p-8 h-60  shadow-lg rounded-3xl max-2xl:h-60  max-lg:h-fit max-sm:w-full  '  >
                 <h1 className='text-xl font-bold max-2xl:text-lg max-xl:text-[15px] max-lg:text-[12px] max-md:text-xl  max-sm:text-xl'>Unwavering Commitment to Quality</h1>
                 <p className='text-lg max-2xl:text-base max-xl:text-sm max-lg:text-xs max-md:text-lg max-sm:text-lg '>We use only the finest materials and employ a team of skilled professionals to ensure the highest quality construction.</p>
               </div>
