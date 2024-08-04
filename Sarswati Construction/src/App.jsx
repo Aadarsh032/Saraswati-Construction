@@ -23,7 +23,7 @@ function App() {
        <Backdrop2/>
        <Specification/>
        <Contact/>
-      <Footer/>  
+       <Footer/>  
     </>
   )
 }
