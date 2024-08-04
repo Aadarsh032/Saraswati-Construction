@@ -19,18 +19,18 @@ const Footer = () => {
     <div className='footer-main relative  h-[602px] max-md:h-full max-md:bg-[#DF7F8E]  '>
       <img src={footerbackground} className='h-[602px] max-md:hidden' alt="" />
       <div className='footer-overlay flex flex-col absolute top-0 mt-[130px] max-md:mt-0 max-md:pt-4 w-[100%] max-md:realtive max-md:static  max-md:justify-self-center '>
-        <div className='footer-overlay-top flex flex-row justify-evenly max-xl:gap-0 max-md:flex-col max-md:items-center max-md:text-center max-md:gap-7 max-md:mb-6 '>
+        <div className='footer-overlay-top grid grid-cols-4  m-auto gap-4  px-6 max-xl:gap-0 max-md:flex max-md:flex-col max-md:items-center max-md:text-center max-md:gap-7 max-md:mb-6 '>
 
-          <div className='footer-overlay-top1 h-[302px]  flex flex-col gap-[25px] '>
+          <div className='footer-overlay-top1  flex flex-col gap-[25px] '>
             <img src={footerbuilderlogo} alt="" className='footerlogo-img w-[287px] h-[129px] max-xl:w-60 max-xl:h-32 max-md:m-auto' />
             <p className='slogan text-[17px] max-xl:text-[15px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <p className='email text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center ' ><img src={envelope} alt="" className='h-[19px] w-5' /> <p>Hello@Email.com</p> </p>
             <p className='phonenumber text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center'><img src={blackphonelogo} alt="" className='w-[18px] h-5' /> <p>+62 123 456 789</p></p>
           </div>
 
-          <div className='footer-overlay-top2  list-none flex flex-col gap-[25px] max-xl:gap-[15px] '>
+          <div className='footer-overlay-top2  list-none flex flex-col gap-[25px] max-xl:gap-[15px] items-center '>
             <h1 className='heading font-bold text-[25px]'>Quick Links</h1>
-            <ul className='flex flex-col gap-[15px]  '>
+            <ul className='flex flex-col gap-[15px]'>
               <li className='flex gap-2 items-center max-md:justify-center' ><img src={caretright} className='w-[10px] h-[13px]' alt="" /><AnchorLink href='#Home' className='anchorlink'>Home</AnchorLink></li>
               <li className='flex gap-2 items-center max-md:justify-center'><img src={caretright} className='w-[10px] h-[13px]' alt="" /><AnchorLink href='#AboutUs' className='anchorlink'>About Us</AnchorLink>  </li>
               <li className='flex gap-2 items-center max-md:justify-center'><img src={caretright} className='w-[10px] h-[13px]' alt="" /> <AnchorLink href='#RoseAvenue' className='anchorlink'>Our Service</AnchorLink> </li>
@@ -38,7 +38,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='footer-overlay-top3  list-none flex flex-col gap-[25px] '>
+          <div className='footer-overlay-top3  list-none flex flex-col gap-[25px] items-center '>
             <h1 className='heading font-bold text-[25px]'>Useful Links</h1>
             <ul className='flex flex-col gap-[15px] '>
               <li className='flex gap-2 items-center max-md:justify-center' ><img src={caretright} className='w-[10px] h-[13px]' alt="" /> Privacy Policy</li>
@@ -48,8 +48,8 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='footer-overlay-top4  flex flex-col gap-[25px]'>
-            <h1 className='heading font-bold text-[25px]'>Follow Us</h1>
+          <div className='footer-overlay-top4  flex flex-col gap-[25px] '>
+            <h1 className='heading font-bold text-[25px] '>Follow Us</h1>
             <p className='slogan text-[17px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div className='socialmedia-logo flex gap-3 max-md:justify-center '> <img src={facebook} alt="" /><img src={twitter} alt="" /><img src={instagram} alt="" /><img src={pinterest} alt="" /> </div>
           </div>
