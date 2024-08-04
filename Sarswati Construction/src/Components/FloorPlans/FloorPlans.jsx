@@ -32,15 +32,15 @@ const FloorPlans = () => {
   return (
     <div className='floorplans flex flex-row w-[95%] m-auto justify-evenly mt-12 mb-24 gap-8 max-md:mt-6 max-md:mb-12'>
 
-      <div className='floorplans-left max-sm:hidden'>
+      <div className='floorplans-left max-md:hidden'>
         <img src={left_building_image} alt="" />
       </div>
 
-      <div className='floorplans-right flex flex-col justify-center gap-9 mt-7 max-xl:mt-3 max-xl:gap-4 max-md:mt-0'>
+      <div className='floorplans-right flex flex-col w-[75%] justify-center gap-4  max-xl:mt-3 max-xl:gap-4 max-md:mt-0'>
         <AnimateUpDown direction='up'>
         <div className='floorplans-right-top flex flex-col gap-4 max-xl:gap-2' >
-          <h1 className='text-4xl font-extrabold text-[#DF7F8E] max-xl:text-3xl max-lg:text-xl max-sm:text-5xl ' >Floor Plans</h1>
-          <p className='text-[17px] font-thin max-xl:text-[15px] max-lg:text-[13px] max-sm:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <h1 className='text-4xl font-extrabold text-[#DF7F8E] max-xl:text-3xl max-sm:text-5xl ' >Floor Plans</h1>
+          <p className='text-[17px] font-thin max-xl:text-[15px]  max-sm:text-xl'>Discover the thoughtfully designed floor plans of Rose Avenue, crafted to maximize space, comfort, and convenience. Each layout is tailored to meet the diverse needs of our residents, ensuring an ideal living experience for every family.</p>
         </div>
         </AnimateUpDown>
         <div className='floorplans-right-bottom flex flex-row gap-4 max-sm:flex-col-reverse max-sm:text-center '>
