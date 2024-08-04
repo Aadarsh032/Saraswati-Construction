@@ -23,7 +23,7 @@ const Footer = () => {
 
           <div className='footer-overlay-top1  flex flex-col gap-[25px] '>
             <img src={footerbuilderlogo} alt="" className='footerlogo-img w-[287px] h-[129px] max-xl:w-60 max-xl:h-32 max-md:m-auto' />
-            <p className='slogan text-[17px] max-xl:text-[15px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className='slogan text-[17px] max-xl:text-[15px] '>Saraswati Constructions is dedicated to building a brighter future</p>
             <p className='email text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center ' ><img src={envelope} alt="" className='h-[19px] w-5' /> <p>Hello@Email.com</p> </p>
             <p className='phonenumber text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center'><img src={blackphonelogo} alt="" className='w-[18px] h-5' /> <p>+62 123 456 789</p></p>
           </div>
@@ -50,7 +50,7 @@ const Footer = () => {
 
           <div className='footer-overlay-top4  flex flex-col gap-[25px] '>
             <h1 className='heading font-bold text-[25px] '>Follow Us</h1>
-            <p className='slogan text-[17px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className='slogan text-[17px]'>Reach out to us anytime, we're here at:</p>
             <div className='socialmedia-logo flex gap-3 max-md:justify-center '> <img src={facebook} alt="" /><img src={twitter} alt="" /><img src={instagram} alt="" /><img src={pinterest} alt="" /> </div>
           </div>
 

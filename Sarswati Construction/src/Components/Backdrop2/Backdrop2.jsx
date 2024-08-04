@@ -19,7 +19,7 @@ const Backdrop2 = () => {
           <div className='backdrop2-overlap-left-top   flex flex-col gap-2 max-xl:gap-3 max-lg:gap-1 max-sm:gap-0 '  >
             <h3 className='heading font-bold text-[22px] text-[#DF7F8E] max-lg:text-[18px] max-md:text-base max-sm:text-sm  '>Nothing but the best</h3>
             <h1 className='slogan font-bold text-6xl  max-xl:text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg '>Sculpted for the pioneers of tomorrow</h1>
-            <p className='detail text-[17px] max-xl:text-[15px] max-lg:text-[13px] max-md:text-[11px] max-sm:text-[9px]  max-sm:hidden '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p className='detail text-[17px] max-xl:text-[15px] max-lg:text-[13px] max-md:text-[11px] max-sm:text-[9px]  max-sm:hidden '>Dedicated to creating innovative and enduring structures, we shape the future for the visionaries and leaders of tomorrow. </p>
           </div>
           </AnimateUpDown>
           <AnimateUpDown direction='down'>
