@@ -34,7 +34,7 @@ const Backdrop = () => {
         </div>
 
         <div className='backdrop-right-box w-1/4 flex items-center justify-center max-xl:w-1/5 max-md:w-full '>
-             <img src={backdropimage} alt="" />
+             <img src={backdropimage} alt="" className='w-[70%] max-2xl:w-[70%] max-xl:w-fit' />
         </div>
 
       </div>
