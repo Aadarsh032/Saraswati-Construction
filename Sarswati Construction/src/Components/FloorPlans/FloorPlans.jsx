@@ -58,8 +58,8 @@ const FloorPlans = () => {
             <li className={`p-2 cursor-pointer ${floor === "GROUND FLOOR" ? 'bg-[#D9D9D9]  animate-fadeIn ' : 'bg-white'} `} onClick={groundfloor} >GROUND FLOOR</li>
             <li className={`p-2 cursor-pointer ${floor === "FIRST FLOOR" ? ' bg-[#D9D9D9]  animate-fadeIn ' : 'bg-white'} `} onClick={firstfloor} >FIRST FLOOR</li>
             <li className={`p-2 cursor-pointer ${floor === "SECOND FLOOR" ? ' bg-[#D9D9D9]  animate-fadeIn ' : 'bg-white'} `} onClick={secondfloor} >SECOND FLOOR</li>
-            <li className={`p-2 cursor-pointer ${floor === "ODD FLOOR" ? ' bg-[#D9D9D9]  animate-fadeIn ' : 'bg-white'} `} onClick={oddfloor} >3,5,7,9,11,13 FLOORS</li>
-            <li className={`p-2 cursor-pointer ${floor === "EVEN FLOOR" ? ' bg-[#D9D9D9]  animate-fadeIn ' : 'bg-white'} `} onClick={evenfloor} >4,6,8,10,12,14 FLOORS</li>
+            <li className={`p-2 cursor-pointer ${floor === "ODD FLOOR" ? ' bg-[#D9D9D9]  animate-fadeIn ' : 'bg-white'} `} onClick={oddfloor} >FLOORS 3/5/7/9/11/13</li>
+            <li className={`p-2 cursor-pointer ${floor === "EVEN FLOOR" ? ' bg-[#D9D9D9]  animate-fadeIn ' : 'bg-white'} `} onClick={evenfloor} >FLOORS 4/6/8/10/12/14</li>
           </div>
           <div className='floorplans-right-bottom-left border-[1px] cursor-move '>
             <FloorLayout image={image} />
