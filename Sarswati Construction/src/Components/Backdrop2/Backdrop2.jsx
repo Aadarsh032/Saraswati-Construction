@@ -13,8 +13,8 @@ const Backdrop2 = () => {
   return (
     <div className='backdrop2-maindiv relative'>
       <img src={backdrop2} alt="" className='backdrop2-image   ' />
-      <div className=' backdrop2-overlap absolute top-0  inset-0  bg-custom-gradient'>
-        <div className='backdrop2-overlap-left m-[100px] my-[100px]   text-white max-xl:my-[85px] max-xl:flex max-xl:flex-col max-lg:my-[45px] max-lg:m-10 max-md:m-[50px] max-md:my-[35px] max-sm:my-[29px] max-sm:m-[17px] '>
+      <div className=' backdrop2-overlap absolute top-0 flex items-center   inset-0  bg-custom-gradient'>
+        <div className='backdrop2-overlap-left mx-20  max-sm:mx-5 text-white  '>
           <AnimateUpDown direction='down'>
           <div className='backdrop2-overlap-left-top   flex flex-col gap-2 max-xl:gap-3 max-lg:gap-1 max-sm:gap-0 '  >
             <h3 className='heading font-bold text-[22px] text-[#DF7F8E] max-lg:text-[18px] max-md:text-base max-sm:text-sm  '>Nothing but the best</h3>
