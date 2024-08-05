@@ -34,7 +34,7 @@ const Footer = () => {
                 <li className='flex gap-2 items-center ' ><img src={caretright} className='w-[10px] h-[13px]' alt="" /><AnchorLink href='#Home' className='anchorlink'>Home</AnchorLink></li>
                 <li className='flex gap-2 items-center '><img src={caretright} className='w-[10px] h-[13px]' alt="" /><AnchorLink href='#AboutUs' className='anchorlink'>About Us</AnchorLink>  </li>
                 <li className='flex gap-2 items-center '><img src={caretright} className='w-[10px] h-[13px]' alt="" /> <AnchorLink href='#RoseAvenue' className='anchorlink'>Our Service</AnchorLink> </li>
-                <li className='flex gap-2 items-center'><img src={caretright} className='w-[10px] h-[13px]' alt="" /> <AnchorLink href='#Projects' className='anchorlink'>Project</AnchorLink>  </li>
+                <li className='flex gap-2 items-center'><img src={caretright} className='w-[10px] h-[13px]' alt="" /> <AnchorLink href='#Amenities' className='anchorlink'>Amenities</AnchorLink>  </li>
               </ul>
             </div>
 
