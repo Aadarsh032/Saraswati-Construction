@@ -2,7 +2,7 @@ import React from 'react'
 import amenity from '../../assets/amenity'
 import AnimateLeftRight from '../Animate/AnimateLeftRight/AnimateLeftRight';
 import IndividualAmenity from './IndividualAmenity/IndividualAmenity';
-import locationmap from '../../assets/loaction map-.png'
+import locationmap from '../../assets/loaction map-.jpg'
 
 
 const Amenities = () => {
