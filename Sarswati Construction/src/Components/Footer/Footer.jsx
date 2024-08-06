@@ -26,9 +26,8 @@ const Footer = () => {
   return (
     <>
 
-      <div className='footer-main relative  h-[602px] max-md:h-full max-md:bg-[#DF7F8E]  '>
-        <img src={footerbackground} className='h-[602px] max-md:hidden' alt="" />
-        <div className='footer-overlay flex flex-col  text-white absolute top-0 mt-[130px] max-md:mt-0 max-md:pt-4 w-[100%] max-md:realtive max-md:static  max-md:justify-self-center '>
+      <div className='footer-main relative  h-[450px]  max-md:h-full '>
+        <div className='footer-overlay flex flex-col  text-white absolute top-0 mt-[60px] max-md:mt-0 max-md:pt-4 w-[100%] max-md:realtive max-md:static  max-md:justify-self-center '>
           <div className='footer-overlay-top grid grid-cols-4  gap-4 w-[90%] m-auto max-lg:w-[98%]  px-6 max-xl:gap-0 max-md:flex max-md:flex-col max-md:items-center max-md:text-center max-md:gap-7 max-md:mb-6 '>
 
             <div className='footer-overlay-top1  flex flex-col gap-[25px]   '>
@@ -73,15 +72,17 @@ const Footer = () => {
 
 
         </div>
-        <div className='footer-overlay-bottom absolute bottom-0 w-[100%] bg-[#000000] bg-opacity-50 text-[#FFFFFF] flex justify-center h-[89px] items-center  max-md:relative '>
+        <div className='footer-overlay-bottom absolute bottom-0 w-[100%] bg-[#000000] bg-opacity-50 text-[#FFFFFF] flex justify-center py-4 items-center  max-md:relative '>
           <h1>All right Reserved - <a href="https://theroguepixxel.com/" target='_blank' className='footer_links hover:text-[#36b16d]'>The Rogue Pixxel</a></h1>
         </div>
       </div>
 
-
-
-
-
+      <style jsx>{`
+        .footer-main {
+          background-image: url(${footerbackground});
+          background-repeat: repeat;
+        }
+      `}</style>
     </>
   )
 }
