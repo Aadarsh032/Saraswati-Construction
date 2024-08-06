@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Home.css'
-import homebackground from '../../assets/homepage-bg.png'
+import homebackground from '../../assets/homepage-bg.jpg'
 import homearrow from '../../assets/long-arrow-right-home.png'
 import compassdrafting from '../../assets/compass-drafting.png'
 import penruler from '../../assets/pen-ruler.png'
