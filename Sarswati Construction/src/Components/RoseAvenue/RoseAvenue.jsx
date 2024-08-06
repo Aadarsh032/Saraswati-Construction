@@ -52,7 +52,7 @@ const RoseAvenue = () => {
               
              <div className='roseavenue-bottom-right w-[60%] mt-60 max-md:mt-40 max-sm:w-full '>
                     
-                    <div className='roseavenue-bottom-right-inside '>
+                    <div className='roseavenue-bottom-right-inside max-sm:px-3  '>
                           <h1 className='roseavenue-mainheading font-bold text-5xl text-[#DF7F8E] max-2xl:text-4xl max-xl:text-2xl max-lg:text-xl max-sm:text-center max-sm:text-4xl ' >ROSE AVENUE</h1>
                           <h3 className='roseavenue-slogan font-semibold text-[27px] max-2xl:text-2xl max-xl:text-xl max-lg:text-lg max-sm:text-center max-sm:text-2xl '>Where your legacy finds a home</h3>
                           <p className='description text-xl max-2xl:text-lg  max-xl:text-base  max-lg:text-sm  max-md:text-xs max-sm:text-center max-sm:text-xl  '>
