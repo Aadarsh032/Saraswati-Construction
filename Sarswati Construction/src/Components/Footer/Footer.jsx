@@ -12,7 +12,7 @@ import facebookwhite from '../../assets/facebook-white.png'
 import caretwhiteright from '../../assets/caret-right-white.png'
 import instagramwhite from '../../assets/instagram-white.png'
 import phonewhite from '../../assets/phone-white.png'
-import whitelogo from '../../assets/Logo White.png'
+import builderwhitelogo from '../../assets/Builder Logo White (Custom).png'
 import mailwhite from '../../assets/mail-white.png'
 
 
@@ -31,7 +31,7 @@ const Footer = () => {
           <div className='footer-overlay-top grid grid-cols-4  gap-4 w-[90%] m-auto max-lg:w-[98%]  px-6 max-xl:gap-0 max-md:flex max-md:flex-col max-md:items-center max-md:text-center max-md:gap-7 max-md:mb-6 '>
 
             <div className='footer-overlay-top1  flex flex-col gap-[25px]   '>
-              <img src={whitelogo} alt="" className='footerlogo-img w-[287px] h-[129px] max-xl:w-60 max-xl:h-32 max-md:m-auto' />
+              <img src={builderwhitelogo} alt="" className='footerlogo-img w-[287px] h-[129px] max-xl:h-fit max-xl:w-fit  max-md:w-64 max-md:h-32 max-md:m-auto' />
               <p className='slogan text-[17px] max-xl:text-[15px] '>Saraswati Constructions is dedicated to building a brighter future</p>
               <p className='email text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center ' ><img src={mailwhite} alt="" className='h-[19px] w-5' /> <p>Hello@Email.com</p> </p>
               <p className='phonenumber text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center'><img src={phonewhite} alt="" className='w-[18px] h-5' /> <p>062002 91302</p></p>

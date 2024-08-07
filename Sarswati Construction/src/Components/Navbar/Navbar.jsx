@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './Navbar.css';
-import blacklogo from '../../assets/Logo White.png';
+import whitelogo from '../../assets/Builder Logo White (Custom).png';
 import dropdown from '../../assets/chevron-down.png';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import telephone from '../../assets/long-arrow-right.png';
@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className='Navbar bg-[#0606066b] flex items-center justify-around p-4'>
   
-      <img src={blacklogo} alt="logo" className='w-44 h-20 max-lg:h-14 max-lg:w-32 max-md:h-20 max-md:w-40 ' />
+      <img src={whitelogo} alt="logo" className='w-44 h-20 max-lg:h-14 max-lg:w-32 max-md:h-20 max-md:w-40 ' />
       <img src={navhamburger} alt="" className='navhamburger md:hidden w-6 h-6  max-md:h-14 max-md:w-14 max-sm:h-12 max-sm:w-12 cursor-pointer' onClick={toggleMenu} />
       
       
