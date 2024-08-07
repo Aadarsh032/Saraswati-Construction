@@ -23,7 +23,7 @@ let specification_details = {
     },
     toilets: {
         title: "TOILETS",
-        details: "Flooring in ceramic tiles & dado in theme based ceramic tiles upto 7’0” height. Corner / Full basin will be provided in all toilets. Pipes for hot & cold water provided in all toilets. (Geysers not Provided)"
+        details: "Ceramic tiles for flooring and dado up to 7' height. Toilets include corner/full basin and pipes for hot and cold water (Geyser not included)"
     },
     doors: {
         title: "DOORS",
@@ -31,7 +31,7 @@ let specification_details = {
     },
     electrification: {
         title: "WIRING",
-        details: "Concealed wiring with standard makes modular fitting & fixtures. Fan regulators, provision for AC points in all bedrooms, living & dining rooms & TV points in drawing room & Master bedroom shall be provided"
+        details: "Concealed wiring with modular fittings; includes fan regulators, AC points in all bedrooms, living, and TV points in the drawing room and master bedroom."
     },
     windows: {
         title: "WINDOWS",
@@ -75,21 +75,21 @@ const Specification = () => {
                         <img src={specification1} className='w-[374px] h-[182px] max-2xl:w-[300px] max-2xl:h-[150px]  max-lg:m-auto ' alt="" />
                     </AnimateLeftRight>
                 </div>
-                <div className='specification-bottom-list-box  flex flex-row gap-10 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-8 max-md:flex-col max-md:w-fit max-md:justify-center max-sm:pl-0 '>
+                <div className='specification-bottom-list-box   flex flex-row gap-10 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-8 max-md:flex-col max-md:w-fit max-md:justify-center max-sm:pl-0 '>
                     <div className='specification-top middle'>
                         <Specificfeature title={specification_details.structure.title} details={specification_details.structure.details} />
                         <Specificfeature title={specification_details.walls.title} details={specification_details.walls.details} />
                         <Specificfeature title={specification_details.doors.title} details={specification_details.doors.details} />
                     </div>
                     <div className='specification-top right'>
-                        <Specificfeature title={specification_details.floors.title} details={specification_details.floors.details} />4
+                        <Specificfeature title={specification_details.floors.title} details={specification_details.floors.details} />
                         <Specificfeature title={specification_details.toilets.title} details={specification_details.toilets.details} />
                         <Specificfeature title={specification_details.electrification.title} details={specification_details.electrification.details} />
                     </div>
                 </div>
             </div>
 
-            <div className='specification-bottom flex py-10 px-10 items-center justify-evenly  max-lg:flex-col max-lg:py-0 max-sm:px-1 max-sm:pt-5 '>
+            <div className='specification-bottom flex py-10 px-10 items-center justify-evenly   max-lg:flex-col max-lg:py-0 max-sm:px-1 max-sm:pt-5 '>
                 <div className=' specification-bottom-list-box flex flex-row gap-10 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-9 max-md:flex-col max-md:w-fit max-md:justify-center   ' >
                     <div className='specification-top-left '>
                         <Specificfeature title={specification_details.windows.title} details={specification_details.windows.details} />
@@ -103,7 +103,7 @@ const Specification = () => {
                         <Specificfeature title={specification_details.staircase.title} details={specification_details.staircase.details} />
                     </div>
                 </div>
-                <div className='specification-right '>
+                <div className='specification-right  '>
                     <AnimateUpDown direction='down'>
                         <img src={specification2} alt="" className='max-lg:m-auto' />
                     </AnimateUpDown>
