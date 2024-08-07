@@ -75,7 +75,7 @@ const Specification = () => {
                         <img src={specification1} className='w-[374px] h-[182px] max-2xl:w-[300px] max-2xl:h-[150px]  max-lg:m-auto ' alt="" />
                     </AnimateLeftRight>
                 </div>
-                <div className='specification-bottom-list-box   flex flex-row gap-10 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-8 max-md:flex-col max-md:w-fit max-md:justify-center max-sm:pl-0 '>
+                <div className='specification-bottom-list-box   flex flex-row gap-10 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-0 max-md:flex-col max-md:w-fit max-md:justify-center max-sm:pl-0 '>
                     <div className='specification-top middle'>
                         <Specificfeature title={specification_details.structure.title} details={specification_details.structure.details} />
                         <Specificfeature title={specification_details.walls.title} details={specification_details.walls.details} />
@@ -89,8 +89,8 @@ const Specification = () => {
                 </div>
             </div>
 
-            <div className='specification-bottom flex py-10 px-10 items-center justify-evenly   max-lg:flex-col max-lg:py-0 max-sm:px-1 max-sm:pt-5 '>
-                <div className=' specification-bottom-list-box flex flex-row gap-10 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-9 max-md:flex-col max-md:w-fit max-md:justify-center   ' >
+            <div className='specification-bottom flex pt-10 px-10 items-center justify-evenly   max-lg:flex-col max-lg:py-0 max-sm:px-1 max-sm:pt-5 '>
+                <div className=' specification-bottom-list-box flex flex-row gap-10 max-lg:w-[95%] max-lg:m-auto max-lg:justify-center max-lg:gap-0 max-md:flex-col max-md:w-fit max-md:justify-center   ' >
                     <div className='specification-top-left '>
                         <Specificfeature title={specification_details.windows.title} details={specification_details.windows.details} />
                         <Specificfeature title={specification_details.kitchen.title} details={specification_details.kitchen.details} />

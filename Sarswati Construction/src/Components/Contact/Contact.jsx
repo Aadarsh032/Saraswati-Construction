@@ -35,7 +35,7 @@ const Contact = () => {
                     <div className='  flex flex-col gap-1 max-2xl:w-fit max-lg:h-fit'>
                         <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px] max-xl:w-[12px] max-xl:h-[18px]' />
                         <h1 className=' font-bold text-xl max-xl:text-lg  max-lg:text-base'>Address</h1>
-                        <p className='text-[17px] max-xl:text-[13px] max-lg:text-[11px]'>Commitment to the highest standards of construction and design.</p>
+                        <p className='text-[17px] max-xl:text-[13px] max-lg:text-[11px]'>Near Shiv Mandir, Sahu Chowk, Ranchi, Ranchi, India, Jharkhand</p>
                     </div>
                 </div>
                 </AnimateUpDown>
@@ -44,7 +44,7 @@ const Contact = () => {
                     <div className='  flex flex-col gap-1 max-lg:h-fit'>
                     <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px] max-xl:w-[12px] max-xl:h-[18px]' />
                     <h1 className=' font-bold text-xl max-xl:text-lg'>Phone No</h1>
-                    <p className='text-[17px] max-xl:text-[13px]'>+91 99999 99999</p>
+                    <p className='text-[17px] max-xl:text-[13px]'>062002 91302</p>
                     </div>
             
                 </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                     <div className='  flex flex-col gap-1 max-lg:h-fit'>
                     <img src={location_icon} alt="" className='w-[25.48px] h-[33.97px] max-xl:w-[12px] max-xl:h-[18px]' />
                     <h1 className=' font-bold text-xl max-xl:text-lg'>Email</h1>
-                    <p className='text-[17px] max-xl:text-[13px]'>something@something.com</p>
+                    <p className='text-[17px] max-xl:text-[13px]'>sccrnc17@gmail.com</p>
                     </div>
                 </div>
                 </AnimateUpDown>

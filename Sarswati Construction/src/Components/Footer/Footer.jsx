@@ -34,7 +34,7 @@ const Footer = () => {
               <img src={whitelogo} alt="" className='footerlogo-img w-[287px] h-[129px] max-xl:w-60 max-xl:h-32 max-md:m-auto' />
               <p className='slogan text-[17px] max-xl:text-[15px] '>Saraswati Constructions is dedicated to building a brighter future</p>
               <p className='email text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center ' ><img src={mailwhite} alt="" className='h-[19px] w-5' /> <p>Hello@Email.com</p> </p>
-              <p className='phonenumber text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center'><img src={phonewhite} alt="" className='w-[18px] h-5' /> <p>+62 123 456 789</p></p>
+              <p className='phonenumber text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center'><img src={phonewhite} alt="" className='w-[18px] h-5' /> <p>062002 91302</p></p>
             </div>
 
             <div className='footer-overlay-top2  list-none flex flex-col gap-[25px] max-xl:gap-[15px] items-center '>
@@ -59,7 +59,7 @@ const Footer = () => {
 
             <div className='footer-overlay-top4  flex flex-col gap-[25px] '>
               <h1 className='heading font-bold text-[25px] '>Follow Us</h1>
-              <p className='slogan text-[17px]'>Reach out to us anytime, we're here at:</p>
+              <p className='slogan text-[17px]'>Reach out to us anytime, we're available at:</p>
               <div className='socialmedia-logo flex gap-3 max-md:justify-center items-center '>
                 <a href="https://www.facebook.com/sarswatibuilders/?_rdr" target='_blank' ><img src={facebookwhite} alt="" /></a>
                 <a href="https://www.instagram.com/sarswati_builders/" target='_blank' ><img src={instagramwhite} alt="" /></a>

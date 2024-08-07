@@ -11,10 +11,10 @@ export const Controls = () => {
 
   return (
     <>
-      <div className="tools flex flex-col items-center absolute top-0 left-[92%]   w-fit p-2  ">
-        <button onClick={() => zoomIn()} className=" buttons h-10 w-14 border-[1px]  bg-[#D9D9D9] text-slate-800 text-4xl font-bold flex items-center justify-center rounded-t-lg max-md:h-7 max-md:w-9 max-md:text-2xl ">+</button>
-        <button onClick={() => zoomOut()} className=" buttons h-10 w-14 border-[1px]  bg-[#D9D9D9] text-slate-800 text-4xl font-bold flex items-center justify-center max-md:h-7 max-md:w-9 max-md:text-2xl">-</button>
-        <button onClick={() => resetTransform()} className=" buttons h-10 w-14 border-[1px]  bg-[#D9D9D9] text-slate-800 text-lg font-bold flex items-center justify-center rounded-b-lg max-md:h-7 max-md:w-9 max-md:text-xs">Reset</button>
+      <div className="tools flex flex-col items-center absolute top-0 left-[92%] max-lg:left-[89%]  w-fit p-2  ">
+        <button onClick={() => zoomIn()} className=" buttons h-10 w-11 border-[1px]  bg-[#D9D9D9] text-slate-800 text-2xl font-bold flex items-center justify-center rounded-t-lg max-md:h-7 max-md:w-9 max-md:text-xl ">+</button>
+        <button onClick={() => zoomOut()} className=" buttons h-10 w-11 border-[1px]  bg-[#D9D9D9] text-slate-800 text-2xl font-bold flex items-center justify-center max-md:h-7 max-md:w-9 max-md:text-xl">-</button>
+        <button onClick={() => resetTransform()} className=" buttons h-10 w-11 border-[1px]  bg-[#D9D9D9] text-slate-800 text-sm font-bold flex items-center justify-center rounded-b-lg max-md:h-7 max-md:w-9 max-md:text-xs">Reset</button>
       </div>
       
     </>

@@ -14,7 +14,7 @@ const Specificfeature = (props) => {
                 <p className='font-medium text-[16px] max-2xl:text-[13px]  max-lg:text-[13px]'>{props.details}</p>
             </div>
         </div>
-            <hr className='bg-black w-[520px] max-2xl:w-[450px] max-xl:w-[350px] max-sm:hidden' />
+            <hr className='bg-black w-[520px] max-2xl:w-[450px] max-xl:w-[350px] ' />
             </>
  
     )
