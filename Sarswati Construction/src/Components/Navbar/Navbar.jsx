@@ -38,7 +38,7 @@ const Navbar = () => {
       </div>
       <div className='getquotes flex items-center justify-center gap-2 font-bold max-md:hidden md:flex'>
         <button className='quotes bg-[#B96D79] p-3 px-8 rounded-3xl max-lg:p-2 max-lg:text-base  max-lg:px-5 max-md:text-[10px] max-md:px-4'>Get a Quote</button>
-        <div className='contact flex items-center max-lg:hidden'><img src={telephone} alt="" className='h-5 mr-1 max-lg:h-4 max-md:h-3' /><p className='max-lg:text-xs max-md:text-[10px]'>123 456 789</p></div>
+        <div className='contact flex items-center max-lg:hidden'><img src={telephone} alt="" className='h-5 mr-1 max-lg:h-4 max-md:h-3' /><p className='max-lg:text-xs max-md:text-[10px]'>062002 91302</p></div>
       </div>
     </div>
   );

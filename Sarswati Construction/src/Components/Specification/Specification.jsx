@@ -69,8 +69,8 @@ const Specification = () => {
             <div className='specification-top  flex py-10 px-10 items-center justify-evenly max-lg:flex-col max-lg:py-0 max-lg:pt-10 max-sm:px-1 '>
 
                 <div className='specification-top left flex flex-col gap-5 w-[374px] max-lg:w-[100%] '>
-                    <p className='font-bold text-[16px] text-[#DF7F8E] max-lg:text-center  max-lg:text-2xl ' >The pinnacle of success is where you find the keys to the kingdom</p>
-                    <h1 className='font-bold text-5xl max-2xl:text-4xl max-lg:text-center'>Specifications</h1>
+                    <p className='font-bold text-[16px] text-black max-lg:text-center  max-lg:text-2xl ' >"The pinnacle of success is where you find the keys to the kingdom"</p>
+                    <h1 className='font-bold text-5xl text-[#DF7F8E] max-2xl:text-4xl max-lg:text-center'>Specifications</h1>
                     <AnimateLeftRight direction='left'>
                         <img src={specification1} className='w-[374px] h-[182px] max-2xl:w-[300px] max-2xl:h-[150px]  max-lg:m-auto ' alt="" />
                     </AnimateLeftRight>
@@ -82,7 +82,7 @@ const Specification = () => {
                         <Specificfeature title={specification_details.doors.title} details={specification_details.doors.details} />
                     </div>
                     <div className='specification-top right'>
-                        <Specificfeature title={specification_details.floors.title} details={specification_details.floors.details} />
+                        <Specificfeature title={specification_details.floors.title} details={specification_details.floors.details} />4
                         <Specificfeature title={specification_details.toilets.title} details={specification_details.toilets.details} />
                         <Specificfeature title={specification_details.electrification.title} details={specification_details.electrification.details} />
                     </div>

@@ -69,8 +69,6 @@ const Footer = () => {
 
           </div>
 
-
-
         </div>
         <div className='footer-overlay-bottom absolute bottom-0 w-[100%] bg-[#000000] bg-opacity-50 text-[#FFFFFF] flex justify-center py-4 items-center  max-md:relative '>
           <h1>All right Reserved - <a href="https://theroguepixxel.com/" target='_blank' className='footer_links hover:text-[#36b16d]'>The Rogue Pixxel</a></h1>

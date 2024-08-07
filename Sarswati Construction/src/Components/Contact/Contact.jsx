@@ -18,8 +18,8 @@ const Contact = () => {
 
                
                 <div className='contact-heading  h-[103px] flex flex-col gap-5 max-lg:gap-2 max-lg:-mb-5  max-md:m-auto max-md:text-center ' >
-                    <h3 className='text-[26px] font-bold text-[#B96D79] max-xl:text-[21px] ' >Location</h3>
-                    <h1 className=' font-bold text-[40px] max-xl:text-[30px]'>Distance Chart</h1>
+                    <h3 className='text-4xl font-extrabold text-[#DF7F8E] max-xl:text-3xl max-sm:text-5xl ' >Location</h3>
+                    <h1 className=' font-bold text-2xl max-xl:text-xl  max-lg:text-lg'>Distance Chart</h1>
                 </div>
                 <div className='contact-left-details font-medium text-[16px]  max-lg:text-[12px]   max-md:m-auto max-md:text-center '>
                     <ol >

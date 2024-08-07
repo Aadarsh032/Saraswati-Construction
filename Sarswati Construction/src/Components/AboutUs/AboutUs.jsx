@@ -35,18 +35,18 @@ const AboutUs = () => {
             </div>
             <div className='  flex items-center gap-7 max-2xl:gap-5 max-lg:gap-2  max-sm:flex-col max-sm:w-full  '>
               <div className='w-1/2 bg-white p-8 h-60  shadow-lg rounded-3xl max-2xl:h-60  max-lg:h-fit max-sm:w-full  '  >
-                <h1 className='text-xl font-bold max-2xl:text-lg max-xl:text-[15px] max-lg:text-[12px] max-md:text-xl  max-sm:text-xl'>Unwavering Commitment to Quality</h1>
+                <h1 className='text-xl font-bold max-2xl:text-lg max-xl:text-[15px] max-lg:text-[12px] max-md:text-xl  max-sm:text-xl'>Steadfast dedication to exceptional quality</h1>
                 <p className='text-lg max-2xl:text-base max-xl:text-sm max-lg:text-xs max-md:text-lg max-sm:text-lg '>We use only the finest materials and employ a team of skilled professionals to ensure the highest quality construction.</p>
               </div>
-              <div className='w-1/2 bg-white p-8  rounded-3xl shadow-lg max-2xl:h-60 max-lg:h-fit max-lg:p-7 max-md:p-6 max-sm:w-full '>
+              <div className='w-1/2 bg-white p-8 h-60 rounded-3xl shadow-lg max-2xl:h-60 max-lg:h-fit max-lg:p-7 max-md:p-6 max-sm:w-full '>
                 <h1 className='text-xl font-bold max-2xl:text-lg max-xl:text-[15px] max-lg:text-[12px] max-md:text-xl max-sm:text-xl  '>Transparency, Trust and Customer Satisfaction</h1>
-                <p className='text-lg max-2xl:text-base max-xl:text-sm max-lg:text-xs max-md:text-lg max-sm:text-lg'>Commitment to the highest standards of construction and design. and a track record of delivering projects on time and exceeding client expectations.</p>
+                <p className='text-lg max-2xl:text-base max-xl:text-sm max-lg:text-xs max-md:text-lg max-sm:text-lg'>Commitment to top construction and design standards, with a proven track record of on-time project delivery and exceeding client expectations.</p>
               </div>
             </div>
-            <div className='flex gap-10  max-sm:flex-col   max-sm:w-[90%]  max-sm:items-center '>
+            {/* <div className='flex gap-10  max-sm:flex-col   max-sm:w-[90%]  max-sm:items-center '>
               <button className='flex items-center gap-3 text-xl p-3 px-8 rounded-3xl bg-[#DF7F8E] text-[#FFFFFF] max-2xl:text-base max-2xl:p-2 max-2xl:px-5 max-xl:px-3 max-xl:text-sm max-lg:text-xs max-lg:p-1 max-lg:px-2 max-md:text-xl max-md:p-2 max-md:px-8' >Learn More <img src={longarrowwhiteright} alt="" className='max-lg:w-3' /></button>
               <div className='flex items-center gap-3'><img src={blackphone} alt="" className='max-2xl:h-4  max-xl:h-3  max-md:h-6' /> <p className='font-bold text-xl max-2xl:text-base  max-xl:text-sm max-lg:text-xs  max-md:text-xl'>123 456 789</p></div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

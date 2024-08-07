@@ -11,27 +11,27 @@ import gymnasium from './gymnasium.jpg'
 export let Amenity= [
     {
         image: clubhouse,
-        title: "Clubhouse & Indoor Games",
-        description: "A luxurious space for community events and social gatherings"
+        title: "Clubhouse & Games",
+        description: "Luxurious space for community and social gatherings"
     },
     {
         image: swimmingpool,
         title: "Swimming Pool",
-        description: "Dive into relaxation with our meticulously maintained pool"
+        description: "Relax in our meticulously maintained pool"
     },
     {
         image: gymnasium,
         title: "Gymnasium",
-        description: "Stay fit and healthy with our state-of-the-art fitness center"
+        description: "Stay fit with our state-of-the-art gym"
     },
     {
         image: landscape,
-        title: "Landscaped Gardens",
-        description: "Enjoy the tranquility of our beautifully designed gardens"
+        title: "Green Lawn",
+        description: "Enjoy tranquility in our beautiful gardens"
     },
     {
         image: kidsplay,
-        title: "Children's Play Area",
+        title: "Kids Area",
         description: "A safe and fun environment for kids to play"
     },
     {

@@ -24,8 +24,8 @@ const Backdrop2 = () => {
           </AnimateUpDown>
           <AnimateUpDown direction='down'>
           <div className='backdrop2-overlap-left-bottom flex flex-row gap-[30px] text-[16px] font-bold items-center text-white mt-6 max-xl:mt-5 max-lg:mt-2 max-sm:mt-1'>
-            <button className='learnmore-btn rounded-3xl flex flex-row items-center gap-[10px] bg-[#DF7F8E] text-[#FFFFF] px-[38px] py-[14px] max-xl:px-[25px] max-xl:py-[10px] max-lg:py-[7px] max-lg:px-[18px] max-lg:text-[15px] max-md:text-[11px] max-sm:py-[4px] max-sm:px-[12px] '>Learn More <img src={whitearrow} alt="" /></button>
-            <p className='paragraph flex gap-[10px] items-center  max-lg:text-[15px] max-md:text-[11px]  '><img src={whitephone} alt="" className='w-4 h-4 max-md:w-3 max-md:h-3  ' /> 123 456 789</p>
+            <button className='learnmore-btn rounded-3xl flex flex-row items-center gap-[10px] bg-[#DF7F8E] text-[#FFFFF] px-[38px] py-[14px] max-xl:px-[25px] max-xl:py-[10px] max-lg:py-[7px] max-lg:px-[18px] max-lg:text-[15px] max-md:text-[11px] max-sm:py-[4px] max-sm:px-[12px] '>Bookings Open <img src={whitearrow} alt="" /></button>
+            <p className='paragraph flex gap-[10px] items-center  max-lg:text-[15px] max-md:text-[11px]  '><img src={whitephone} alt="" className='w-4 h-4 max-md:w-3 max-md:h-3  ' />062002 91302</p>
           </div>
           </AnimateUpDown>
         </div>
