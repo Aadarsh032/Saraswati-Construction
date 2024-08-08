@@ -33,7 +33,7 @@ const Footer = () => {
             <div className='footer-overlay-top1  flex flex-col gap-[25px]   '>
               <img src={builderwhitelogo} alt="" className='footerlogo-img w-[287px] h-[129px] max-xl:h-fit max-xl:w-fit  max-md:w-64 max-md:h-32 max-md:m-auto' />
               <p className='slogan text-[17px] max-xl:text-[15px] '>Saraswati Constructions is dedicated to building a brighter future</p>
-              <p className='email text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center ' ><img src={mailwhite} alt="" className='h-[19px] w-5' /> <p>Hello@Email.com</p> </p>
+              <p className='email text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center ' ><img src={mailwhite} alt="" className='h-[19px] w-5' /> <p>sccrnc17@gmail.com</p> </p>
               <p className='phonenumber text-[17px] max-xl:text-[15px] flex gap-[15px] items-center max-md:justify-center'><img src={phonewhite} alt="" className='w-[18px] h-5' /> <p>062002 91302</p></p>
             </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutrightimage1 from '../../assets/Rectangle4.png'
-import aboutrightimage2 from '../../assets/playutt.png'
+import aboutrightimage2 from '../../assets/Rectangle5.png'
 import longarrowwhiteright from '../../assets/long-arrow-right-white.png'
 import blackphone from '../../assets/black-phone-icon.png'
 import Backdrop from '../Backdrop/Backdrop'
@@ -22,7 +22,7 @@ const AboutUs = () => {
             <AnimateLeftRight direction='left' >
               <div className='aboutusleft relative m-24 mb-28 max-lg:m-12 max-sm:m-3 '>
                 <img src={aboutrightimage1} alt="" className='w-[100%]   '  />
-                <img src={aboutrightimage2} alt="" className='absolute  -bottom-24 right-32 max-2xl:right-24 max-2xl:h-[310px] max-2xl:-bottom-20 max-xl:h-[250px] max-xl:right-[70px] max-lg:h-[190px] max-lg:-bottom-12 max-lg:right-12 max-md:h-[130px] max-md:-bottom-9 max-md:right-7 ' />
+                <img src={aboutrightimage2} alt="" className='absolute  -bottom-24 right-32 max-2xl:right-24 max-2xl:h-[310px] max-2xl:-bottom-20 max-xl:h-[250px] max-xl:right-[70px] max-lg:h-[190px] max-lg:-bottom-12 max-lg:right-12 max-md:h-[130px] max-md:-bottom-9 max-md:right-7 max-sm:hidden ' />
               </div>
             </AnimateLeftRight>
           </div>

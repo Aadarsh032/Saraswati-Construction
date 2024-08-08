@@ -1,12 +1,24 @@
-import React, { useEffect } from 'react'
+import React, { useEffect ,useState } from 'react'
 import backdrop2 from '../../assets/backdrop2.png'
 import whitearrow from '../../assets/long-arrow-right-white.png'
 import whitephone from '../../assets/long-arrow-right.png'
 import './Backdrop2.css'
-
 import AnimateUpDown from '../Animate/AnimateUpDown/AnimateUpDown';
 
+import ReactModal from 'react-modal';
+import ModalComp from '../Navbar/Modal/ModalComp'
+import backdrop from '../../assets/Sarswati Backdrop 1.png'
+
+
+
+
 const Backdrop2 = () => {
+
+  const [open, setOpen] = useState(false);
+
+  function handleOpen() {
+    setOpen(!open);
+  }
 
  
 
@@ -24,7 +36,29 @@ const Backdrop2 = () => {
           </AnimateUpDown>
           <AnimateUpDown direction='down'>
           <div className='backdrop2-overlap-left-bottom flex flex-row gap-[30px] text-[16px] font-bold items-center text-white mt-6 max-xl:mt-5 max-lg:mt-2 max-sm:mt-1'>
-            <button className='learnmore-btn rounded-3xl flex flex-row items-center gap-[10px] bg-[#DF7F8E] text-[#FFFFF] px-[38px] py-[14px] max-xl:px-[25px] max-xl:py-[10px] max-lg:py-[7px] max-lg:px-[18px] max-lg:text-[15px] max-md:text-[11px] max-sm:py-[4px] max-sm:px-[12px] '>Bookings Open <img src={whitearrow} alt="" /></button>
+            <button onClick={handleOpen} className='learnmore-btn rounded-3xl flex flex-row items-center gap-[10px] bg-[#DF7F8E] text-[#FFFFF] px-[38px] py-[14px] max-xl:px-[25px] max-xl:py-[10px] max-lg:py-[7px] max-lg:px-[18px] max-lg:text-[15px] max-md:text-[11px] max-sm:py-[4px] max-sm:px-[12px] '>Bookings Open <img src={whitearrow} alt="" /></button>
+            
+              {/* react-Modal */}
+
+            <ReactModal
+            isOpen={open
+            /* Boolean describing if the modal should be shown or not. */}
+
+            style={{
+              overlay: {
+                zIndex: 9999,
+              }
+            }}
+
+            parentSelector={() => document.querySelector('#root')}
+          >
+            <div className='modal-box-main h-full flex flex-col  '>
+              <div className=' flex justify-end' >   <button className='h-16 w-16 text-black text-center font-bold text-4xl  ' onClick={handleOpen}>X</button></div>
+              <ModalComp />
+            </div>
+          </ReactModal>
+           
+           
             <p className='paragraph flex gap-[10px] items-center  max-lg:text-[15px] max-md:text-[11px]  '><img src={whitephone} alt="" className='w-4 h-4 max-md:w-3 max-md:h-3  ' />062002 91302</p>
           </div>
           </AnimateUpDown>
