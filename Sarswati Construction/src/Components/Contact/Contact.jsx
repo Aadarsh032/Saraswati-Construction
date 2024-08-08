@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import location_icon from '../../assets/location_icon.png'
 import AnimateUpDown from '../Animate/AnimateUpDown/AnimateUpDown';
+import Map from '../Map/Map';
 
 
 const Contact = () => {
@@ -10,7 +11,7 @@ const Contact = () => {
      
 
     return (
-        <div className='contact-maindiv  w-full bg-[#F5F5F5] flex justify-between max-md:flex-col max-md:gap-7 max-md:py-5 ' id='Contact'>
+        <div className='contact-maindiv  w-full bg-[#F5F5F5] flex justify-between max-md:flex-col max-md:gap-7 max-md:pt-5 ' id='Contact'>
             <div className='contact-left  w-[33%] flex flex-col gap-[15px] justify-center pl-16 max-lg:gap-3  max-lg:w-fit max-md:w-full  max-md:pl-0 '>
                 
                 <div className='contact-leftinnerdiv w-4/5 flex flex-col gap-7 max-md:m-auto'>
@@ -18,8 +19,8 @@ const Contact = () => {
 
                
                 <div className='contact-heading  h-[103px] flex flex-col gap-5 max-lg:gap-2 max-lg:-mb-5  max-md:m-auto max-md:text-center ' >
-                    <h3 className='text-4xl font-extrabold text-[#DF7F8E] max-xl:text-3xl max-sm:text-5xl ' >Location</h3>
-                    <h1 className=' font-bold text-2xl max-xl:text-xl  max-lg:text-lg'>Distance Chart</h1>
+                    <h3 className='text-4xl font-extrabold text-[#DF7F8E] max-xl:text-3xl max-md:text-5xl ' >Location</h3>
+                    <h1 className=' font-bold text-2xl max-xl:text-xl  max-lg:text-lg max-md:text-2xl'>Distance Chart</h1>
                 </div>
                 <div className='contact-left-details font-medium text-[16px]  max-lg:text-[12px]   max-md:m-auto max-md:text-center '>
                     <ol >
@@ -62,12 +63,23 @@ const Contact = () => {
                 </div>
 
             </div>
+            
             <div className='contact-imagesection w-[66%] h-[868px] flex justify-end max-xl:h-fit max-md:w-full'>
                
-                <iframe className='w-[100%] h-[868px] border-2   max-xl:h-[800px] max-lg:h-[600px]   ' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7326.21519380224!2d85.270039!3d23.3481161!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4df000e8915df%3A0xf9d2aec92255e69d!2sRose%20Avenue%20-%20project%20by%20Sarswati%20Consultancy%20and%20Construction!5e0!3m2!1sen!2sin!4v1721806130810!5m2!1sen!2sin" ></iframe>
+               <div className='w-[100%] h-[868px] border-2   max-xl:h-[800px] max-lg:h-[600px]   '>
+               <Map/>
+               </div>
+               
+
+                {/* <iframe className='w-[100%] h-[868px] border-2   max-xl:h-[800px] max-lg:h-[600px]   ' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7326.21519380224!2d85.270039!3d23.3481161!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4df000e8915df%3A0xf9d2aec92255e69d!2sRose%20Avenue%20-%20project%20by%20Sarswati%20Consultancy%20and%20Construction!5e0!3m2!1sen!2sin!4v1721806130810!5m2!1sen!2sin" ></iframe> */}
                 
             </div>
         </div>
     )
 }
 export default Contact
+
+// contact-imagesection w-[66%] h-[868px] flex justify-end max-xl:h-fit max-md:w-full
+
+
+// w-[100%] h-[868px] border-2   max-xl:h-[800px] max-lg:h-[600px] 
